@@ -1,5 +1,16 @@
 'use strict'
+/*media html */
+if (window.innerWidth <= 990){
+    document.getElementsByClassName("header_Offer_RightSide_Img")[0].src = "Images/HalfOfferPhoneImg.png"
+    document.getElementsByClassName("header_Offer_RightSide_BackgroundBlur")[0].style.right = "300px";
+    document.getElementsByClassName("header_Offer_RightSide_BackgroundBlur")[0].style.width = "250px";
+    document.getElementsByClassName("header_Offer_RightSide")[0].style.marginRight = "0px";
+}
+
+
+
 /* show cookie block*/
+
 let CookieBlock = document.getElementsByClassName('header_Cookie')[0];
 window.onload = function(){
     let i = -100;
@@ -32,6 +43,11 @@ button.onclick = function() {
 const ValidationBorder = document.querySelectorAll("input");
 const TextArea = document.querySelector('textarea');
 const FormButton = document.getElementsByClassName("GetInTouch_Feed_Form_Send")[0];
+
+
+
+
+
 
 const form = document.querySelector('form');
 form.addEventListener("submit", (even) => {
@@ -69,4 +85,9 @@ let i = 0;
         }, 400);
     };
     
-})
+});
+
+
+
+
+    

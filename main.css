@@ -66,6 +66,7 @@ body{
 }
 .header_Offer_LeftSide_UnderTitle_Text{
     padding-top: 50px;
+    position: relative;
     padding-left: 70px;
     width: 450px;
 }
@@ -894,88 +895,63 @@ footer .DownloadButtons_GooglePlay{
 }
 
 /*media screens*/
-@media (max-width: 1586px) {
+@media (max-width: 1640px) {
     .header_Offer_RightSide{
-        margin-right: 50px;
+        margin-right: 150px;
     }
-    .header_DownloadApp{
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-    }
-    header .DownloadButtons{
-        margin-right: 0px;
-        margin-left: 100px;
-    }
-   
-}
-@media (max-width: 1502px) {
     .header_DownloadApp .DownloadButtons{
-        margin-left: 0px;
-        margin-right: 0px;
+        margin-right: 100px;
     }
-
+}
+@media (max-width: 1540px) {
+    .header_Offer_LeftSide_Title{
+        max-width: 500px;
+    }
+}
+@media (max-width: 1380px) {
     .header_DownloadApp{
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
         flex-direction: column;
     }
     .header_DownloadApp_Text{
         margin-left: 0px;
-        margin-bottom: 50px;
+    }
+    .header_DownloadApp .DownloadButtons{
+        margin-right: 0px;
+        margin-top: 100px;
     }
 }
-@media (max-width: 1400px) {
-    .header_Offer_RightSide{
-        margin-right: 10px;
-    }
-    .header_Offer_RightSide_BackgroundBlur{
-        transform: rotate(0deg);
-        filter: blur(250px);
-    }
+@media (max-width: 1300px) {
     .header_Offer_LeftSide{
-        margin-left: 50px;
+        margin-left: 100px;
     }
     .header_LogoPlusLogin{
-        margin-left: 50px;
+        margin-left: 100px;
     }
 }
-@media (max-width: 1258px) {
-    .header_Offer_LeftSide_Title{
-        width: 500px;
-    }
-    .header_Offer_RightSide{
-        display: none;
-    }
-    
-}
-@media (max-width: 1000px) {
-    .header_Offer_RightSide{
-        position: absolute;
-        right: -100px;
-    }
-}
-@media (max-width: 860px) {
+@media (max-width: 1220px) {
     .header_Offer_LeftSide_UnderTitle_Icon_Bar{
         display: none;
-    }
-    .header_Offer_LeftSide_UnderTitle_Text{
-        width: 350px;
-        padding-left: 0px;
-        padding-top: 0px;
-    }
-    .header_Offer_LeftSide_Title h1{
-        font-size: 60px;
     }
     .header_Offer_LeftSide_UnderTitle{
         margin-left: 0px;
     }
-    .header_DownloadApp{
-        margin-top: 230px;
+    .header_Offer_LeftSide_UnderTitle_Text{
+        padding-left: 0px;
     }
-    .header_Cookie_Text{
-        padding-left: 30px;
+    .header_Offer_LeftSide_UnderTitle{
+        margin-top: 50px;
+    }
+    .header_Offer_RightSide{
+        margin-right: 100px;
+    }
+
+    .header_Offer_RightSide_BackgroundBlur{
+        transform: rotate(0deg);
+    }
+}
+@media (max-width: 1035px) {
+    .header_Offer_RightSide{
+        margin-right: 50px;
     }
     .header_LogoPlusLogin{
         justify-content: space-between;
@@ -984,63 +960,99 @@ footer .DownloadButtons_GooglePlay{
         margin-right: 0px;
     }
     .header_LogoPlusLogin_Login{
-        margin-right: 100px;
+        margin-right: 200px;
     }
-    .header_DownloadApp .DownloadButtons{
-        flex-direction: column;
-        display: flex;
-        justify-content: center;
-    }
-    .DownloadButtons_AppStore{
-        margin-right: 0px;
-        margin-bottom: 30px;
-        padding-right: 22px;
-        padding-left: 22px;
+    .header_Cookie_Text{
+        padding-left: 30px;
+        max-width: 400px;
     }
 }
 @media (max-width: 800px) {
-    .header_Offer_RightSide{
-        right: -150px;
-    }
-    .header_DownloadApp_Text{
-        font-size: 40px;
+    .header_Offer_LeftSide{
+        margin-left: 50px;
     }
     .header_DownloadApp{
-        margin-top: 300px;
+        margin-top: 90px;
     }
-    
-    
-}
-@media (max-width: 698px) {
-    .header_Offer_LeftSide_Title h1{
-        font-size: 40px;
-        width: 300px;
-    }    
-    .header_Offer_LeftSide_UnderTitle_Text{
-        width: 250px;
-    }
-    .header_Offer_LeftSide{
-        margin-left: 5px;
-    }
-    .header_Offer_LeftSide{
-        margin-left: 40px;
-    }
-    .header_Cookie_Text{
-        width: 500px;
+    .header_DownloadApp .DownloadButtons{
+        margin-top: 60px;
     }
     .header_LogoPlusLogin_Login{
-        margin-right: 70px;
+        margin-right: 100px;
     }
     .header_LogoPlusLogin{
-        margin-left: 10px;
+        margin-left: 50px;
+    }
+    .header_Offer_LeftSide_UnderTitle_Text{
+        max-width: 400px;
+    }
+    .header_Offer_LeftSide_Title h1{
+        font-size: 60px;
+    }
+    .header_Offer_RightSide_BackgroundBlur{
+        left: 100px;
     }
 }
-@media (max-width: 500px) {
+@media (max-width: 646px) {
     .header_DownloadApp_Text{
+        font-size: 40px;
+    }
+    .header_Cookie_Button{
+        margin-right: 20px;
+    }
+    .header_LogoPlusLogin_Login{
+        margin-right: 30px;
+    }
+    .header_LogoPlusLogin{
+        margin-left: 30px;
+    }
+    .header_Offer_RightSide_Img{
+        height: 500px;
+        margin-top: 30px;
+    }
+    .header_Offer_LeftSide_UnderTitle_Text{
+        padding-top: 0px;
+    }
+    .header_Offer_LeftSide_UnderTitle_Text{
+        max-width: 240px;
+    }
+    .header_Offer_LeftSide_Title h1{
+        font-size: 40px;
+    }
+    .header_Offer_LeftSide_Title{
+        max-width: 240px;
+    }
+    .header_DownloadApp .DownloadButtons{
+        flex-direction: column;
+    }
+    .DownloadButtons_AppStore{
+        padding-left: 23px;
+        padding-right: 23px;
+        margin-bottom: 30px;
+        margin-right: 0px;
+    }
+    .header_LogoPlusLogin_Logo_Img{
+        width: 60px;
+    }
+    .header_LogoPlusLogin_Logo_Text{
         font-size: 25px;
     }
-    .header_Offer_RightSide{
-        right: -200px;
+    .header_Offer{
+        margin-top: 50px;
+    }
+}
+@media (max-width: 502px) {
+    .header_DownloadApp_Text{
+        font-size: 30px;
+    }
+    .header_Offer_LeftSide{
+        margin-left: 20px;
     }
     
+}
+@media (max-width: 470px) {
+    .header_Offer_RightSide_Img{
+        height: 400px;
+        margin-top: 70px;
+    }
 }
