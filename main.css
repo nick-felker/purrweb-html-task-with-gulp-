@@ -1,0 +1,1043 @@
+/*fonts */  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Noto+Sans:wght@400;700&family=Roboto:wght@500&display=swap');
+
+/*common styles*/ 
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+html {width: 100%; overflow-x: hidden;}
+body{
+    background: rgb(0, 0, 0);
+    color: white;
+    height: 10000px;
+    width: 100%;
+    
+}
+/*styles for block which consist of logotype and login*/
+
+.header_LogoPlusLogin{
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.header_LogoPlusLogin_Logo{
+    display: flex;
+    margin-right: 100px;
+    align-items: center;
+}
+.header_LogoPlusLogin_Login{
+    display: flex;
+    align-items: center;
+}
+.header_LogoPlusLogin_Logo_Text{
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.header_LogoPlusLogin_Login_Link{
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    padding-bottom: 1px;
+    border-bottom: 1px solid white;
+    font-family: 'Noto Sans', sans-serif;
+}
+.header_LogoPlusLogin_Login_Link:hover{
+    opacity: 0.5;
+    transition: 1s;
+}
+/*header offer block styles*/
+
+.header_Offer{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+}
+.header_Offer_RightSide{
+    margin-right: 300px;
+}
+.header_Offer_LeftSide_UnderTitle_Text p{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+.header_Offer_LeftSide_UnderTitle_Text{
+    padding-top: 50px;
+    padding-left: 70px;
+    width: 450px;
+}
+.header_Offer_LeftSide{
+    margin-left: 150px;
+}
+.header_Offer_LeftSide_Title{
+    margin-top: 100px;
+}
+.header_Offer_LeftSide_Title h1{
+    font-size: 75px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.header_Offer_LeftSide_UnderTitle{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 35px;
+}
+.header_Offer_LeftSide_UnderTitle_Icon_BackgroundBlur{
+    height: 80px;
+    margin-top: 30px;
+    filter: blur(50px);
+    position: absolute;
+    width: 80px;
+    background: #615ceaf1;
+}
+.header_Offer_LeftSide_UnderTitle_Icon_Bar{
+    height: 150px;
+    width: 4px;
+    margin-left: 30px;
+    transform: rotate(30deg);
+    background: #FFFFFF;
+}
+.header_Offer_RightSide_BackgroundBlur{
+    position: absolute;
+    height: 500px;
+    filter: blur(300px);
+    width: 350px;
+    transform: rotate(-30deg);
+    background: #fb00ffb4;
+}
+.header_Offer_RightSide_Img{
+    position: relative;
+}
+/* header download block styles*/
+.header_DownloadApp{
+    justify-content: space-between;
+    display: flex;
+    margin-top: 150px;
+    align-items: center;
+}
+.header_DownloadApp_Text{
+    margin-left: 150px;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+/*download buttons styles (app store and google play)*/
+
+.DownloadButtons{
+    display: flex;
+    align-items: center;
+}
+.header_DownloadApp .DownloadButtons{
+    margin-right: 240px;
+}
+.DownloadButtons_AppStore{
+    display: flex;
+    border-radius: 10px;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 15px 10px 15px;
+    text-decoration: none;
+    line-height: 17px;
+    align-items: center;
+    margin-right: 40px;
+}
+.DownloadButtons_AppStore:hover{
+    opacity: 0.5;
+    transition: 1s;
+}
+.DownloadButtons_AppStore_Text{
+    margin-left: 10px;
+}
+.DownloadButtons_AppStore_Text_Thin{
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+.DownloadButtons_AppStore_Text_Bold{
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.DownloadButtons_GooglePlay{
+    display: flex;
+    border-radius: 10px;
+    color: white;
+    line-height: 17px;
+    border: 1px solid white;
+    padding: 10px 15px 10px 15px;
+    text-decoration: none;
+    align-items: center;
+}
+.DownloadButtons_GooglePlay:hover{
+    opacity: 0.5;
+    transition: 1s;
+}
+.DownloadButtons_GooglePlay_Text{
+    margin-left: 10px;
+}
+.DownloadButtons_GooglePlay_Text_Thin{
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.DownloadButtons_GooglePlay_Text_Bold{
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    font-family: 'Montserrat', sans-serif;
+}
+/*header cookie block styles*/
+.header_Cookie{
+    background: #212834;
+    display: flex;
+    bottom: -100px;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_Cookie_Text{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    padding: 35px 0px 35px 100px;
+}
+.header_Cookie_Button{
+    color: white;
+    border: 1px solid white;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding: 15px 40px;
+    border-radius: 5px;
+    background: #212834;
+    margin-right: 40px;
+    cursor: pointer;
+}
+/*start using block styles*/
+.StartUsing{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+}
+.StartUsing_Mail{
+    padding: 65px 75px 62px 55px;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-left: 220px;
+    margin-right: 100px
+}
+.StartUsing_Mail_Text{
+    font-size: 45px;
+    margin-bottom: 40px;
+    line-height: 55px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 500;
+}
+.StartUsing_Mail_Link{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+    padding-bottom: 1px;
+    border-bottom: 1px solid white;
+}
+.StartUsing_Mail_Link:hover{
+    opacity: 0.4;
+    transition: 1s;
+}
+
+
+.StartUsing_Login{
+    padding-top: 120px;
+    padding-left: 65px;
+    padding-right: 150px;
+    margin-right: 200px;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+.StartUsing_Login_Text{
+    font-size: 45px;
+    margin-bottom: 40px;
+    line-height: 55px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 500;
+}
+.StartUsing_Login_Link{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+    padding-bottom: 1px;
+    border-bottom: 1px solid white;
+}
+.StartUsing_Login_Link:hover{
+    opacity: 0.4;
+    transition: 1s;
+}
+/*Section description styles*/
+.SectionDescription_Title{
+    font-size: 55px;
+    margin-bottom: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.SectionDescription_MainText{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+/*mission section styles*/
+.OurMission{
+    margin-top: 250px;
+    display: flex;
+    margin-bottom: 550px;
+    justify-content: space-between;
+}
+.OurMission_PhoneImg_Img{
+    position: absolute;
+    left: -120px;
+}
+.OurMission_Description{
+    margin-right: 300px;
+}
+.OurMission_Description_BackgroundBlur{
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    margin-left: 250px;
+    filter: blur(50px);
+    margin-top: 30px;
+    background: #ea5cbf;
+}
+.OurMission .SectionDescription{
+    position: relative;
+}
+/*id scanner section styles*/
+.IdScanner{
+    margin-bottom: 200px;
+    background-image: url('./Images/ScanerBlockBackground.jpg');
+    height: 1269px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.IdScanner_Wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 600px;
+    margin-left: 300px;
+}
+.IdScanner_PhoneImages_FirstPhone{
+    margin-right: 50px;
+}
+.IdScanner_SectionDescription{
+    padding-top: 400px;
+    padding-right: 300px;
+    
+}
+/*Bi Tool section styles*/
+.BiTool_SectionDescription_BackgroundBlur{
+    height: 100px;
+    width: 100px;
+    background: #4c6fe2;
+    filter: blur(100px);
+    position: absolute;
+}
+.BiTool_SectionDescription{
+    margin-left: 200px;
+    padding-top: 100px;
+}
+.BiTool{
+    display: flex;
+    margin-bottom: 500px;
+    justify-content: space-between;
+}
+.BiTool_Charts img{
+    position: absolute;
+}
+.BiTool_Charts{
+    margin-right: 1000px;
+}
+.BiTool_Charts_FirstChart{
+    margin-left: 300px;
+}
+.BiTool_Charts_SecondChart{
+    margin-top: 250px;
+}
+.BiTool_Charts_ThirdChart{
+    margin-top: 300px;
+    margin-left: 250px;
+    z-index: 1;
+
+}
+.BiTool_Charts_FourthChart{
+    margin-top: 180px;
+    margin-left: 430px;
+    z-index: 0;
+}
+.BiTool_Charts_FifthChart{
+    margin-top: 400px;
+    margin-left: 180px;
+}
+.BiTool_Charts_FirstSlicedCircle{
+    margin-top: 180px;
+    margin-left: 130px;
+}
+.BiTool_Charts_SecondSlicedCircle{
+    margin-top: 180px;
+    margin-left: 190px;
+}
+.BiTool_Charts_ThirdSlicedCircle{
+    margin-top: 180px;
+    margin-left: 250px;
+}
+.BiTool_Charts_FourthSlicedCircle{
+    margin-top: 180px;
+    margin-left: 310px;
+}
+.BiTool_Charts_FirstProgressiveCircle{
+    margin-top: 470px;
+    margin-left: 420px;
+}
+.BiTool_Charts_SecondProgressiveCircle{
+    margin-top: 470px;
+    margin-left: 500px;
+}
+.BiTool_Charts_ThirdProgressiveCircle{
+    margin-top: 470px;
+    margin-left: 580px;
+}
+.BiTool_Charts_FourthProgressiveCircle{
+    margin-top: 470px;
+    margin-left: 660px;
+}
+/*qr code section styles*/
+.QrCode{
+    background-image: url('./Images/QrCodeBlockLeftBackground.jpg');
+    height: 606px;
+    background-size: 1001px;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.QrCode_Coctail{
+    position: absolute;
+    z-index: 1;
+    right: 0px;
+    margin-top: 30px;
+    filter: brightness(110%);
+    width: 600px;
+}
+.QrCode_NightlifeText{
+    position: absolute;
+    right: 100px;
+    z-index: 2;
+}
+
+.QrCode_MainContent_SectionDescriptionPlusDownloadButtons .SectionDescription{
+    margin-bottom: 70px;
+    padding-top: 200px;
+}
+.QrCode_MainContent_SectionDescriptionPlusDownloadButtons{
+    padding-top: 250px;
+}
+
+.QrCode_MainContent{
+    justify-content: space-between;
+    display: flex;
+    padding-top: 80px;
+    margin-left: 200px;
+}
+
+.QrCode_MainContent_PhoneImg{
+    margin-right: 100px;
+    z-index: 3;
+   display: flex;
+}
+.QrCode_MainContent_PhoneImg_HigherPhone{
+    margin-top: 150px;
+    margin-right: 130px;
+}
+.QrCode_MainContent_PhoneImg_LowestPhone{
+    margin-top: 500px;
+}
+
+.QrCode_NoTab{
+    background-image: url(./Images/QrCodeNoTabBackground.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 900px;
+    height: 700px;
+    background-position: top;
+}
+.QrCode_NoTab_CentralImg{
+    padding-top: 770px;
+    left: 40%;
+    position: absolute;
+}
+.QrCode_NoTab_BackgroundBlur{
+    width: 300px;
+    position: absolute;
+    z-index: 1;
+    background: linear-gradient(0deg, rgb(241, 1, 191) 33%, rgb(0, 102, 255) 72%);
+    height: 500px;
+    filter: blur(250px);
+}
+.QrCode_NoTab_PhoneImg{
+    z-index: 2;
+    position: relative;
+}
+.QrCode_NoTab_GenerateYourQrCode{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 150px;
+}
+.QrCode_NoTab_GenerateYourQrCode_Title{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 100px;
+    font-size: 55px;
+}
+.QrCode_NoTab_GenerateYourQrCode_MainText{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    margin-right: 100px;
+}
+/*liquid phone section styles*/
+.LiquidPhone{
+    display: flex;
+    flex-direction: column;
+}
+.LiquidPhone_SectionDescription{
+    display: flex;
+    margin-top: 200px;
+    margin-right: 250px;
+    justify-content: flex-end;
+}
+.LiquidPhone_MainImg{
+    display: flex;
+    justify-content: center;
+}
+.LiquidPhone_MainImg div{
+    position: absolute;
+    box-shadow: 0 0 3px 0;
+    border-radius: 10px;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+.LiquidPhone_MainImg_FirstBorderDiv{
+    margin-top: 200px;
+    background: black;
+    margin-left: 320px;
+    padding: 23px;
+}
+.LiquidPhone_MainImg_SecondBorderDiv{
+    margin-top: 350px;
+    background: black;
+    margin-right: 600px;
+    padding: 25px 35px;
+}
+.LiquidPhone_MainImg_ThirdBorderDiv{
+    margin-top: 640px;
+    background: black;
+    padding: 19px 25px;
+    margin-left: 750px;
+}
+.LiquidPhone_MainImg_FourthBorderDiv{
+    margin-top: 740px;
+    background: black;
+    padding: 19px 25px;
+    margin-right: 270px;
+}
+/*No Tab on Phone section styles*/
+.NoTabOnPhone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./Images/NoTabSecondBackground.svg');
+    height: 1100px;
+}
+/*get in touch section styles*/
+.GetInTouch{
+    margin-bottom: 300px;
+    height: 1000px;
+}
+.GetInTouch .SectionDescription{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 2;
+    margin-bottom: 82px;
+}
+.GetInTouch .SectionDescription_MainText{
+    text-align: center;
+}
+.GetInTouch_SectionDecription_BackgroundBlur{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    background: linear-gradient(0deg, rgb(241, 1, 191) 20%, rgb(0, 102, 255));
+    filter: blur(180px);
+    margin-right: 500px;
+    z-index: 0;
+}
+.GetInTouch_Feed{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    z-index: 2;
+    align-items: center;
+}
+.GetInTouch_Feed_Form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.GetInTouch_Feed_Form_City{
+    display: flex;
+    align-items: center;
+}
+.GetInTouch_Feed_Form_Name{
+    background: white;
+    border-radius: 10px;
+    outline: none;
+    font-size: 20px;
+    border: none;
+    margin-bottom: 20px;
+    padding: 29px 440px 29px 23px;  
+}
+.GetInTouch_Feed_Form_Name:focus{
+    background: rgb(226, 226, 226);
+    transition: 1s;
+}
+.GetInTouch_Feed_Form_Name::placeholder{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding: 10px 0px 10px 0px;
+    opacity: 0.7;
+}
+.GetInTouch_Feed_Form_VenueName{
+    background: white;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    
+    padding: 29px 440px 29px 23px;  
+    
+}
+.GetInTouch_Feed_Form_VenueName:focus{
+    background: rgb(226, 226, 226);
+    transition: 1s;
+}
+.GetInTouch_Feed_Form_VenueName::placeholder{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding: 10px 0px 10px 0px;
+    opacity: 0.7;
+}
+.GetInTouch_Feed_Form_City{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.GetInTouch_Feed_Form_City_VenueCity{
+    background: white;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    margin-right: 16px;
+    
+    padding: 29px 80px 29px 23px;  
+    
+}
+.GetInTouch_Feed_Form_City_VenueCity:focus{
+    background: rgb(226, 226, 226);
+    transition: 1s;
+}
+.GetInTouch_Feed_Form_City_VenueCity::placeholder{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding: 10px 0px 10px 0px;
+    opacity: 0.7;
+}
+.GetInTouch_Feed_Form_City_StateCity{
+    background: white;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    
+    padding: 29px 80px 29px 23px;  
+    
+}
+.GetInTouch_Feed_Form_City_StateCity:focus{
+    background: rgb(226, 226, 226);
+    transition: 1s;
+    
+}
+.GetInTouch_Feed_Form_City_StateCity::placeholder{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding: 10px 0px 10px 0px;
+    opacity: 0.7;
+}
+.GetInTouch_Feed_Form_Email{
+    background: white;
+    border-radius: 10px;
+    outline: none;
+    font-size: 20px;
+    border: none;
+    margin-bottom: 20px;
+    padding: 29px 440px 29px 23px;  
+}
+.GetInTouch_Feed_Form_Email:focus{
+    background: rgb(226, 226, 226);
+    transition: 1s;
+    
+}
+.GetInTouch_Feed_Form_Email::placeholder{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding: 10px 0px 10px 0px;
+    opacity: 0.7;
+}
+.GetInTouch_Feed_Form_Subject{
+    background: white;
+    border-radius: 10px;
+    outline: none;
+    font-size: 20px;
+    border: none;
+    margin-bottom: 20px;
+    padding: 29px 440px 29px 23px;  
+    
+}
+.GetInTouch_Feed_Form_Subject:focus{
+    background: rgb(226, 226, 226);
+    transition: 1s;
+    
+}
+.GetInTouch_Feed_Form_Subject::placeholder{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding: 10px 0px 10px 0px;
+    opacity: 0.7;
+}
+.GetInTouch_Feed_Form_Message{
+    background: white;
+    border-radius: 10px;
+    outline: none;
+    font-size: 20px;
+    border: none;
+    margin-bottom: 20px;
+    height: 200px;
+    width: 100%;
+    padding: 20px;
+    resize: none;
+}
+.GetInTouch_Feed_Form_Message:focus{
+    background: rgb(226, 226, 226);
+    transition: 1s;
+    
+}
+.GetInTouch_Feed_Form_Message::placeholder{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    opacity: 0.7;
+    width: 100%;
+}
+.GetInTouch_Feed_Form_Send{
+    margin-top: 40px;
+    background: black;
+    padding: 25px 150px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    border: 1px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+}
+.GetInTouch_Feed_Form_Send:hover{
+    background: rgb(77, 77, 77);
+    transition: 1s;
+}
+/*footer settings*/
+.footer_Info{
+    justify-content: space-between;
+    display: flex;
+    padding-bottom: 80px;
+}
+.footer_DownloadOurApp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 150px;
+    flex-direction: column;
+}
+.footer_DownloadOurApp_Text{
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+footer .DownloadButtons_AppStore{
+    padding: 10px 30px;
+    border-radius: 15px;
+    border: 2px solid white;
+}
+footer .DownloadButtons img{
+    width: 50px;
+    margin-right: 10px;
+}
+footer .DownloadButtons_AppStore_Text_Bold{
+    font-size: 30px;
+    font-weight: 600;
+}
+footer .DownloadButtons_AppStore_Text_Thin{
+    font-size: 16px;
+    padding-bottom: 10px;
+    letter-spacing: 0.1px;
+}
+
+footer .DownloadButtons_GooglePlay_Text_Bold{
+    font-size: 30px;
+    font-weight: 600;
+}
+footer .DownloadButtons_GooglePlay_Text_Thin{
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    letter-spacing: 0.1px;
+}
+footer .DownloadButtons_GooglePlay{
+    padding: 15px 20px;
+    border-radius: 15px;
+    border: 2px solid white;
+}
+.footer_Info_Copyright{
+    margin-left: 100px;
+}
+.footer_Info_Copyright_CompanyName{
+    font-size: 26px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    position: relative;
+    z-index: 2;
+    margin-bottom: 15px;
+}
+.footer_Info_Copyright_Mail{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin-bottom: 20px;
+    line-height: 25px;
+    position: relative;
+    font-size: 18px;
+    z-index: 2;
+}
+.footer_Info_Copyright_License{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    position: relative;
+    z-index: 2;
+    
+    font-size: 18px;
+}
+.footer_Info_Links{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-right: 100px;
+}
+.footer_Info_Links a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+.footer_Info_Links a:first-child{
+    margin-bottom: 25px;
+}
+.footer_Info_Links a:hover{
+    opacity: 0.5;
+    transition: 1s;
+}
+.footer_Info_Copyright_BackgroundBlur{
+    height: 200px;
+    width: 200px;
+    background: linear-gradient(45deg, rgb(241, 1, 191) 13%, rgb(0, 102, 255));
+    filter: blur(120px);
+    z-index: 1;
+    position: absolute;
+}
+
+/*media screens*/
+@media (max-width: 1586px) {
+    .header_Offer_RightSide{
+        margin-right: 50px;
+    }
+    .header_DownloadApp{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    header .DownloadButtons{
+        margin-right: 0px;
+        margin-left: 100px;
+    }
+   
+}
+@media (max-width: 1502px) {
+    .header_DownloadApp .DownloadButtons{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .header_DownloadApp{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .header_DownloadApp_Text{
+        margin-left: 0px;
+        margin-bottom: 50px;
+    }
+}
+@media (max-width: 1400px) {
+    .header_Offer_RightSide{
+        margin-right: 10px;
+    }
+    .header_Offer_RightSide_BackgroundBlur{
+        transform: rotate(0deg);
+        filter: blur(250px);
+    }
+    .header_Offer_LeftSide{
+        margin-left: 50px;
+    }
+    .header_LogoPlusLogin{
+        margin-left: 50px;
+    }
+}
+@media (max-width: 1258px) {
+    .header_Offer_LeftSide_Title{
+        width: 500px;
+    }
+    
+}
+@media (max-width: 1000px) {
+    .header_Offer_RightSide{
+        position: absolute;
+        right: -100px;
+    }
+}
+@media (max-width: 860px) {
+    .header_Offer_LeftSide_UnderTitle_Icon_Bar{
+        display: none;
+    }
+    .header_Offer_LeftSide_UnderTitle_Text{
+        width: 350px;
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+    .header_Offer_LeftSide_Title h1{
+        font-size: 60px;
+    }
+    .header_Offer_LeftSide_UnderTitle{
+        margin-left: 0px;
+    }
+    .header_DownloadApp{
+        margin-top: 230px;
+    }
+    .header_Cookie_Text{
+        padding-left: 30px;
+    }
+    .header_LogoPlusLogin{
+        justify-content: space-between;
+    }
+    .header_LogoPlusLogin_Logo{
+        margin-right: 0px;
+    }
+    .header_LogoPlusLogin_Login{
+        margin-right: 100px;
+    }
+    .header_DownloadApp .DownloadButtons{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+    }
+    .DownloadButtons_AppStore{
+        margin-right: 0px;
+        margin-bottom: 30px;
+        padding-right: 22px;
+        padding-left: 22px;
+    }
+}
+@media (max-width: 800px) {
+    .header_Offer_RightSide{
+        right: -150px;
+    }
+    .header_DownloadApp_Text{
+        font-size: 40px;
+    }
+    .header_DownloadApp{
+        margin-top: 300px;
+    }
+    
+    
+}
+@media (max-width: 698px) {
+    .header_Offer_LeftSide_Title h1{
+        font-size: 40px;
+        width: 300px;
+    }    
+    .header_Offer_LeftSide_UnderTitle_Text{
+        width: 250px;
+    }
+    .header_Offer_LeftSide{
+        margin-left: 5px;
+    }
+    .header_Offer_LeftSide{
+        margin-left: 40px;
+    }
+    .header_Cookie_Text{
+        width: 500px;
+    }
+    .header_LogoPlusLogin_Login{
+        margin-right: 70px;
+    }
+    .header_LogoPlusLogin{
+        margin-left: 10px;
+    }
+}
+@media (max-width: 500px) {
+    .header_DownloadApp_Text{
+        font-size: 25px;
+    }
+    .header_Offer_RightSide{
+        right: -200px;
+    }
+    
+}
