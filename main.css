@@ -1090,9 +1090,6 @@ footer .DownloadButtons_GooglePlay{
     }
 }
 @media (max-width: 646px) {
-    .header_Cookie_Text{
-        font-size: 12px;
-    }
     .header_DownloadApp_Text{
         font-size: 40px;
     }
@@ -1157,7 +1154,7 @@ footer .DownloadButtons_GooglePlay{
         margin-left: 20px;
     }
     .OurMission_PhoneImg_Img{
-        width: 200px;
+        width: 10px;
     }
     
 }
