@@ -945,6 +945,9 @@ footer .DownloadButtons_GooglePlay{
     .header_Offer_LeftSide_Title{
         width: 500px;
     }
+    .header_Offer_RightSide{
+        display: none;
+    }
     
 }
 @media (max-width: 1000px) {
