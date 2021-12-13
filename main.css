@@ -315,6 +315,13 @@ body{
 .OurMission_Description{
     margin-right: 300px;
 }
+.OurMission_Description .SectionDescription_Title{
+    max-width: 350px;
+
+}
+.OurMission_Description .SectionDescription_MainText{
+    max-width: 355px;
+}
 .OurMission_Description_BackgroundBlur{
     height: 70px;
     width: 70px;
@@ -904,6 +911,11 @@ footer .DownloadButtons_GooglePlay{
         margin-right: 150px;
     }
 }
+@media (max-width: 1740px) {
+    .OurMission_Description{
+        margin-right: 200px;
+    }
+}
 @media (max-width: 1700px) {
     .StartUsing_Mail{
         margin-right: 0px;
@@ -939,6 +951,9 @@ footer .DownloadButtons_GooglePlay{
     .header_Offer_LeftSide_Title{
         max-width: 500px;
     }
+    .OurMission_Description{
+        margin-right: 100px;
+    }
 }
 @media (max-width: 1380px) {
     .header_DownloadApp{
@@ -950,6 +965,9 @@ footer .DownloadButtons_GooglePlay{
     .header_DownloadApp .DownloadButtons{
         margin-right: 0px;
         margin-top: 100px;
+    }
+    .OurMission_PhoneImg_Img{
+        width: 800px;
     }
 }
 @media (max-width: 1300px) {
@@ -976,6 +994,12 @@ footer .DownloadButtons_GooglePlay{
     .header_Offer_RightSide{
         margin-right: 100px;
     }
+    .OurMission_PhoneImg_Img{
+        width: 700px;
+    }
+    .OurMission_Description{
+        margin-right: 60px;
+    }
 
     .header_Offer_RightSide_BackgroundBlur{
         transform: rotate(0deg);
@@ -998,6 +1022,35 @@ footer .DownloadButtons_GooglePlay{
         padding-left: 30px;
         max-width: 400px;
     }
+    .OurMission_PhoneImg_Img{
+        width: 600px;
+    }
+}
+@media (max-width: 944px) {
+   .OurMission{
+       flex-direction: column-reverse;
+   }
+   .OurMission_PhoneImg_Img{
+       position: relative;
+       left: 0;
+       transform: rotate(-90deg);
+   }
+   .OurMission_PhoneImg{
+       display: flex;
+       justify-content: center;
+       margin-top: 300px;
+   }
+   .OurMission_Description_BackgroundBlur{
+       margin-left: 0px;
+       margin-right: 170px;
+   }
+   .OurMission_Description{
+       display: flex;
+       align-items: center;
+       margin: 0px;
+       flex-direction: column;
+       align-items: center;
+   }
 }
 @media (max-width: 800px) {
     .header_Offer_LeftSide{
@@ -1083,6 +1136,15 @@ footer .DownloadButtons_GooglePlay{
     .header_Offer{
         margin-top: 50px;
     }
+    .SectionDescription_Title{
+        font-size: 25px;
+        
+        max-width: 700px;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    
+
 }
 @media (max-width: 502px) {
     .header_DownloadApp_Text{
@@ -1114,5 +1176,10 @@ footer .DownloadButtons_GooglePlay{
     .StartUsing_Login_Text{
         font-size: 25px;
         font-weight: 700;
+    }
+}
+@media (max-width: 372px) {
+    .SectionDescription_MainText{
+        width: 300px;
     }
 }
