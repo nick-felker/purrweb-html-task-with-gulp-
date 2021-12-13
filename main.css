@@ -122,6 +122,7 @@ body{
 .header_DownloadApp_Text{
     margin-left: 150px;
     font-size: 50px;
+    position: relative;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
@@ -895,6 +896,37 @@ footer .DownloadButtons_GooglePlay{
 }
 
 /*media screens*/
+@media (max-width: 1812px) {
+    .StartUsing_Mail{
+        margin-left: 150px;
+    }
+    .StartUsing_Login{
+        margin-right: 150px;
+    }
+}
+@media (max-width: 1700px) {
+    .StartUsing_Mail{
+        margin-right: 0px;
+        margin-left: 0px
+    }
+    .StartUsing_Login{
+        margin-top: 50px;
+        padding: 150px 140px 140px 65px;
+       
+    }
+    
+    .StartUsing{
+        align-items: center;
+        flex-direction: column;
+    }
+    .StartUsing_Login{
+        margin-right: 0px;
+    }
+    .StartUsing_Mail{
+        max-width: 600px;
+    }
+}
+
 @media (max-width: 1640px) {
     .header_Offer_RightSide{
         margin-right: 150px;
@@ -993,6 +1025,17 @@ footer .DownloadButtons_GooglePlay{
         left: 100px;
     }
 }
+@media (max-width: 680px) {
+    .StartUsing_Mail{
+        max-width: 450px;
+        padding: 45px 10px 42px 35px;
+    }
+    .StartUsing_Login{
+        max-width: 450px;
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+}
 @media (max-width: 646px) {
     .header_DownloadApp_Text{
         font-size: 40px;
@@ -1054,5 +1097,22 @@ footer .DownloadButtons_GooglePlay{
     .header_Offer_RightSide_Img{
         height: 400px;
         margin-top: 70px;
+    }
+    .StartUsing_Mail_Text{
+        line-height: 30px;
+    }
+    .StartUsing_Mail_Text{
+        font-size: 25px;
+        font-weight: 700;
+    }
+    .StartUsing_Mail{
+        padding-left: 15px;
+    }
+    .StartUsing_Login{
+        padding: 20px 80px 30px 30px;
+    }
+    .StartUsing_Login_Text{
+        font-size: 25px;
+        font-weight: 700;
     }
 }
