@@ -1153,6 +1153,9 @@ footer .DownloadButtons_GooglePlay{
     .header_Offer_LeftSide{
         margin-left: 20px;
     }
+    .OurMission_PhoneImg_Img{
+        width: 400px;
+    }
     
 }
 @media (max-width: 470px) {
