@@ -22,7 +22,7 @@ button.onclick = function() {
         i-=10;
         CookieBlock.style.bottom = `${i}px`
         console.log(i);
-        if(i==-110) clearInterval(CookieHiding);
+        if(i==-200) clearInterval(CookieHiding);
         
     }, 50);   
 }
