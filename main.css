@@ -337,7 +337,7 @@ body{
 /*id scanner section styles*/
 .IdScanner{
     margin-bottom: 200px;
-    background-image: url('./Images/ScanerBlockBackground.jpg');
+    background-image: url('Images/ScanerBlockBackground.jpg');
     height: 1269px;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -356,6 +356,9 @@ body{
     padding-right: 300px;
     
 }
+.IdScanner_SectionDescription .SectionDescription_MainText{
+    width: 340px;
+}
 /*Bi Tool section styles*/
 .BiTool_SectionDescription_BackgroundBlur{
     height: 100px;
@@ -367,6 +370,9 @@ body{
 .BiTool_SectionDescription{
     margin-left: 200px;
     padding-top: 100px;
+}
+.BiTool_SectionDescription .SectionDescription_MainText{
+    max-width: 410px;
 }
 .BiTool{
     display: flex;
@@ -910,6 +916,12 @@ footer .DownloadButtons_GooglePlay{
     .StartUsing_Login{
         margin-right: 150px;
     }
+    .IdScanner_SectionDescription{
+        padding-right:  150px;
+    }
+    .BiTool_Charts{
+        margin-right: 830px;
+    }
 }
 @media (max-width: 1740px) {
     .OurMission_Description{
@@ -924,8 +936,14 @@ footer .DownloadButtons_GooglePlay{
     .StartUsing_Login{
         margin-top: 50px;
         padding: 150px 140px 140px 65px;
-       
     }
+    .IdScanner_Wrapper{
+        padding-top: 400px;
+    }
+    .BiTool_Charts{
+        margin-right: 760px;
+    }
+    
     
     .StartUsing{
         align-items: center;
@@ -946,6 +964,12 @@ footer .DownloadButtons_GooglePlay{
     .header_DownloadApp .DownloadButtons{
         margin-right: 100px;
     }
+    .IdScanner_Wrapper{
+        margin-left: 150px;
+    }
+    .IdScanner_Wrapper{
+        padding-top: 300px;
+    }  
 }
 @media (max-width: 1540px) {
     .header_Offer_LeftSide_Title{
@@ -954,6 +978,25 @@ footer .DownloadButtons_GooglePlay{
     .OurMission_Description{
         margin-right: 100px;
     }
+    .BiTool_SectionDescription{
+        margin-left: 100px;
+    }
+}
+@media (max-width: 1430px) {
+    .BiTool{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+   .BiTool_Charts{
+       margin-top: 200px;
+   }
+   .IdScanner{
+       margin-bottom: 0px;
+   }
+   .BiTool_SectionDescription{
+       margin-left: 0px;
+   }
 }
 @media (max-width: 1380px) {
     .header_DownloadApp{
@@ -969,6 +1012,12 @@ footer .DownloadButtons_GooglePlay{
     .OurMission_PhoneImg_Img{
         width: 800px;
     }
+    .IdScanner_PhoneImages_FirstPhone{
+        margin-right: 5px;
+    }
+    .IdScanner_Wrapper{
+        margin-left: 50px;
+    }
 }
 @media (max-width: 1300px) {
     .header_Offer_LeftSide{
@@ -976,6 +1025,12 @@ footer .DownloadButtons_GooglePlay{
     }
     .header_LogoPlusLogin{
         margin-left: 100px;
+    }
+    .IdScanner_SectionDescription{
+        padding-right: 50px;
+    }
+    .IdScanner_Wrapper{
+        padding-top: 200px;
     }
 }
 @media (max-width: 1220px) {
@@ -1003,6 +1058,27 @@ footer .DownloadButtons_GooglePlay{
 
     .header_Offer_RightSide_BackgroundBlur{
         transform: rotate(0deg);
+    }
+}
+@media (max-width: 1160px) {
+    .IdScanner_Wrapper{
+        display: flex;
+        margin-left: 0px;
+        padding-top: 600px;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .IdScanner_SectionDescription{
+        padding: 0px 0px 70px 0px;
+    }
+    .IdScanner_PhoneImages_FirstPhone{
+        margin-right: 20px;
+    }
+    .OurMission{
+        margin-bottom: 250px;
+    }
+    .IdScanner{
+        margin-bottom: 300px;
     }
 }
 @media (max-width: 1035px) {
@@ -1051,6 +1127,9 @@ footer .DownloadButtons_GooglePlay{
        flex-direction: column;
        align-items: center;
    }
+   .IdScanner_Wrapper{
+       padding-top: 500px;
+   }
 }
 @media (max-width: 800px) {
     .header_Offer_LeftSide{
@@ -1077,6 +1156,88 @@ footer .DownloadButtons_GooglePlay{
     .header_Offer_RightSide_BackgroundBlur{
         left: 100px;
     }
+    .IdScanner_PhoneImages{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .IdScanner_PhoneImages_FirstPhone{
+        margin-right: 0px;
+        margin-bottom: 40px;
+        margin-top: 50px;
+    }
+    .BiTool_Charts_FourthProgressiveCircle{
+        display: none;
+    }
+    .BiTool{
+        padding-top: 600px;
+    }
+    .BiTool_Charts_SecondChart{
+        display: none;
+    }
+    .BiTool_Charts_FirstChart{
+        margin-top: 400px;
+        padding-right: 100px;
+    }
+    .BiTool_Charts{
+        margin-top: 10px;
+        margin-right: 504px;
+    }
+    .BiTool_SectionDescription{
+        padding-top: 200px;
+    }
+    .BiTool_Charts_FirstChart{
+        left: -352px;
+    }
+    .BiTool_Charts_ThirdChart{
+        margin-top: 258px;
+        width: 140px;
+        margin-left: 289px;
+    }
+    .BiTool_Charts_FifthChart{
+        margin-top: 381px;
+        width: 140px;
+    }
+    .BiTool_Charts_FirstSlicedCircle{
+        margin-top: 290px;
+        width: 40px;
+        margin-left: 6px;
+    }
+    .BiTool_Charts_SecondSlicedCircle{
+        margin-top: 290px;
+        width: 40px;
+        margin-left: 66px;
+    }
+    .BiTool_Charts_ThirdSlicedCircle{
+        margin-top: 290px;
+        width: 40px;
+        margin-left: 127px;
+    }
+    .BiTool_Charts_FourthSlicedCircle{
+        margin-top: 290px;
+        margin-left: 187px;
+        width: 40px;
+    }
+    .BiTool_Charts_FourthChart{
+        width: 140px;
+    }
+    .BiTool_Charts_FifthChart{
+        margin-top: 351px;
+        margin-left: 228px;
+    }
+    .BiTool_Charts_FirstProgressiveCircle{
+        width: 80px;
+        margin-left: 250px;
+    }
+    .BiTool_Charts_SecondProgressiveCircle{
+        width: 80px;
+        margin-left: 343px;
+    }
+    .BiTool_Charts_ThirdProgressiveCircle{
+        width: 80px;
+        margin-left: 437px;
+    }
+   
 }
 @media (max-width: 680px) {
     .StartUsing_Mail{
@@ -1143,8 +1304,47 @@ footer .DownloadButtons_GooglePlay{
         margin-right: 0px;
         margin-bottom: 20px;
     }
+    .BiTool_Charts_ThirdChart{
+        margin-left: 250px;
+    }
+    .BiTool_Charts_FourthChart{
+        margin-left: 380px;
+    }
+    .BiTool_Charts_SecondSlicedCircle{
+        margin-left: 51px;
+    }
+    .BiTool_Charts_ThirdSlicedCircle{
+        margin-left: 97px;
+    }
+    .BiTool_Charts_FourthSlicedCircle{
+        margin-left: 140px;
+    }
+    .BiTool_SectionDescription{
+        padding-top: 100px;
+    }
+    
     
 
+}
+@media (max-width: 540px) {
+    .BiTool_Charts_ThirdChart{
+        margin-left: 203px;   
+    }
+    .BiTool_Charts_FourthChart{
+        margin-left: 332px;
+    }
+    .BiTool_Charts_FirstProgressiveCircle{
+        margin-left: 211px;
+    }
+    .BiTool_Charts_SecondProgressiveCircle{
+        margin-left: 297px;
+    }
+    .BiTool_Charts_ThirdProgressiveCircle{
+        margin-left: 382px;
+    }
+    .BiTool_Charts_FirstChart{
+        left: -434px;
+    }
 }
 @media (max-width: 502px) {
     .header_DownloadApp_Text{
@@ -1153,8 +1353,15 @@ footer .DownloadButtons_GooglePlay{
     .header_Offer_LeftSide{
         margin-left: 20px;
     }
-    
-    
+    .IdScanner_Wrapper{
+        padding-top: 280px;
+    }
+    .BiTool_SectionDescription{
+        padding-top: 0px;
+    }
+    .BiTool{
+        padding-top: 450px;
+    }
 }
 @media (max-width: 470px) {
     .header_Offer_RightSide_Img{
@@ -1179,8 +1386,38 @@ footer .DownloadButtons_GooglePlay{
         font-weight: 700;
     }
 }
+@media (max-width: 452px) {
+    .BiTool_Charts_FourthChart {
+        margin-left: 288px;
+        margin-top: 130px;
+    }
+}
+@media (max-width: 426px) {
+    .BiTool_Charts_FirstProgressiveCircle {
+        margin-left: 183px;
+    }
+    .BiTool_Charts_SecondProgressiveCircle {
+        margin-left: 269px;
+    }
+    .BiTool_Charts_ThirdProgressiveCircle {
+        margin-left: 356px;
+    }
+}
+@media (max-width: 408px) {
+    .IdScanner_Wrapper{
+        padding-top: 200px;
+    }
+}
+@media (max-width: 390px) {
+    .BiTool_Charts_FirstChart {
+        left: -469px;
+    }
+}
 @media (max-width: 372px) {
     .SectionDescription_MainText{
+        width: 300px;
+    }
+    .IdScanner_SectionDescription .SectionDescription_MainText{
         width: 300px;
     }
 }
