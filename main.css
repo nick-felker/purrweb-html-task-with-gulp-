@@ -954,10 +954,19 @@ footer .DownloadButtons_GooglePlay{
     .IdScanner_Wrapper{
         padding-top: 400px;
     }
+    .BiTool_Charts {
+        margin-right: 857px;
+    }
 }
 @media (max-width: 1727px) {
     .OurMission_Description{
         margin-right: 150px;
+    }
+    .BiTool_Charts {
+        margin-right: 745px;
+    }
+    .BiTool_SectionDescription{
+        margin-left: 100px;
     }
 }
 @media (max-width: 1644px) {
@@ -991,6 +1000,9 @@ footer .DownloadButtons_GooglePlay{
     .header_DownloadApp .DownloadButtons{
         margin-right: 110px;
     }
+    .QrCode_MainContent_PhoneImg_HigherPhone{
+        margin-right: 30px;
+    }
 }
 @media (max-width: 1554px) {
     .OurMission_PhoneImg_Img{
@@ -1006,7 +1018,29 @@ footer .DownloadButtons_GooglePlay{
     .OurMission{
         margin-bottom: 400px;
     }
+    .QrCode_MainContent{
+        margin-left: 0px;
+        padding-top: 1000px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .QrCode_Coctail{
+        margin-top: 700px;
+        margin-right: 27%;
+    }
+    .QrCode_NightlifeText{
+        margin-top: 700px;
+        margin-right: 27%;
+    }
+    .QrCode{
+        background-size: 100%;
+    }
+    .QrCode_MainContent_PhoneImg{
+        margin-right: 0px;
+    }
 }
+
 @media (max-width: 1438px) {
     .header_Offer_LeftSide{
         margin-left: 100px;
@@ -1022,6 +1056,20 @@ footer .DownloadButtons_GooglePlay{
     }
     .header_DownloadApp_Text{
         margin-left: 100px;
+    }
+    .IdScanner{
+        margin-bottom: 50px;
+    }
+    .BiTool_Charts_FourthProgressiveCircle{
+        display: none;
+    }
+    .BiTool_Charts {
+        margin-right: 652px;
+    }
+}
+@media (max-width: 1320px) {
+    .BiTool_SectionDescription{
+        margin-left: 50px;
     }
 }
 @media (max-width: 1275px) {
@@ -1054,6 +1102,9 @@ footer .DownloadButtons_GooglePlay{
     .IdScanner_Wrapper{
         padding-top: 240px;
     }
+    .IdScanner{
+        height: 950px;
+    }
     .IdScanner_PhoneImages img{
         max-width: 250px;
     }
@@ -1062,6 +1113,30 @@ footer .DownloadButtons_GooglePlay{
     }
     .IdScanner_Wrapper{
         margin-left: 30px;
+    }
+}
+@media (max-width: 1175px) {
+    .BiTool{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .BiTool_SectionDescription{
+        margin-left: 0px;
+        padding-top: 0px;
+        margin-bottom: 100px;
+    }
+    .QrCode_Coctail{
+        display: none;
+    }
+    .QrCode_NightlifeText{
+        display: none;
+    }
+    .QrCode_MainContent{
+        padding-top: 300px;
+    }
+    .BiTool{
+        margin-bottom: 752px;
     }
 }
 @media (max-width: 1100px) {
@@ -1125,6 +1200,9 @@ footer .DownloadButtons_GooglePlay{
         padding-right: 0px;
         padding-top: 200px;
     }
+    .IdScanner{
+        padding-bottom: 1900px;
+    }
     
 
     
@@ -1158,6 +1236,21 @@ footer .DownloadButtons_GooglePlay{
     .IdScanner_SectionDescription{
         padding-top: 150px;   
     }
+    .QrCode_MainContent{
+        padding-top: 100px;
+    }
+    .QrCode_MainContent_PhoneImg_HigherPhone{
+        
+        margin: 100px 0px 50px 0px;
+    }
+    .QrCode_MainContent_PhoneImg_LowestPhone{
+        margin-top: 0px;
+    }
+    .QrCode_MainContent_PhoneImg{
+        display: flex;
+        flex-direction: column;
+    }
+
 
 }
 @media (max-width: 700px) {
@@ -1201,6 +1294,89 @@ footer .DownloadButtons_GooglePlay{
         padding-top: 90px;   
     }
 }
+@media (max-width: 633px) {
+    .BiTool_Charts_FourthChart{
+        width: 120px;
+        margin-top: 38px;
+        margin-left: 474px;
+    }
+    .BiTool_Charts_ThirdChart{
+        width: 130px;
+        margin-top: 120px;
+        margin-left: 346px;
+    }
+    .BiTool_Charts_FourthSlicedCircle{
+        width: 40px;
+        margin-top: 141px;
+        margin-left: 250px;
+    }
+    .BiTool_Charts_ThirdSlicedCircle{
+        margin-top: 140px;
+        margin-left: 190px;    
+        width: 40px;
+    }
+    .BiTool_Charts_SecondSlicedCircle{
+        width: 40px;
+        margin-top: 140px;
+        margin-left: 130px;
+    }
+    .BiTool_Charts_FirstSlicedCircle{
+        width: 40px;
+        margin-top: 140px;
+        margin-left: 70px
+    }
+    .BiTool_Charts_FifthChart{
+        width: 130px;
+        margin-top: 198px;
+        margin-left: 254px;
+    }
+    .BiTool_Charts_SecondChart{
+        display: none;
+    }
+    .BiTool_Charts_FirstChart {
+        margin-top: 240px;
+        margin-left: -85px;
+    }
+    .BiTool_Charts_FirstProgressiveCircle {
+        margin-top: 317px;
+        margin-left: 342px;
+    }
+    .BiTool_Charts_SecondProgressiveCircle {
+        margin-top: 317px;
+        margin-left: 421px;
+    }
+    .BiTool_Charts_ThirdProgressiveCircle {
+        margin-top: 317px;
+        margin-left: 498px;
+    }
+    .BiTool_SectionDescription_BackgroundBlur{
+        display: none;
+    }
+    .BiTool{
+        margin-bottom: 476px;
+    }
+}
+@media (max-width: 600px) {
+    .QrCode_Coctail{
+        display: block;
+        max-width: 400px;
+        margin-top: 822px;
+        margin-right: 0;
+    }
+    .QrCode_MainContent_SectionDescriptionPlusDownloadButtons .SectionDescription{
+        padding-top: 100px;
+    }
+    .QrCode_NightlifeText{
+        display: block;
+        margin-top: 822px;
+        margin-right: 0;
+    }
+    .QrCode_MainContent_PhoneImg{
+        margin-top: 250px;
+    }
+
+
+}
 @media (max-width: 578px) {
     .header_Offer_LeftSide{
         margin-left: 10px;
@@ -1239,6 +1415,91 @@ footer .DownloadButtons_GooglePlay{
     .IdScanner_SectionDescription{
         padding-top: 0px;
     }
+    .IdScanner{
+        padding-bottom: 1750px;
+    }
+    .BiTool_Charts_SecondSlicedCircle {
+        margin-left: 114px;
+    }
+    .BiTool_Charts_ThirdSlicedCircle {
+        margin-left: 161px;
+    }
+    .BiTool_Charts_FourthSlicedCircle {
+        margin-left: 204px;
+    }
+    .BiTool_Charts_ThirdChart {
+        margin-left: 301px;
+    }
+    .BiTool_Charts_FourthChart {
+        margin-left: 379px;
+    }
+    .BiTool_Charts_FirstProgressiveCircle {
+        margin-left: 283px;
+    }
+    .BiTool_Charts_SecondProgressiveCircle {
+        margin-left: 350px;
+    }
+    .BiTool_Charts_ThirdProgressiveCircle {
+        margin-left: 419px;
+    }
+    .BiTool_SectionDescription .SectionDescription{
+        margin-left: 20px;
+    }
+    .BiTool_Charts_FirstChart {
+        margin-left: -50px;
+    }
+    .BiTool_Charts_FirstSlicedCircle{
+        max-width: 30px;
+        margin-top: 124px;
+        margin-left: 128px;
+    }
+    .BiTool_Charts_SecondSlicedCircle{
+        max-width: 30px;
+        margin-top: 124px;
+        margin-left: 178px;
+    }
+    .BiTool_Charts_ThirdSlicedCircle{
+        max-width: 30px;
+        margin-top: 124px;
+        margin-left: 227px;
+    }
+    .BiTool_Charts_FourthSlicedCircle{
+        max-width: 30px;
+        margin-top: 124px;
+        margin-left: 270px;
+    }
+    .BiTool_Charts_FourthChart {
+        margin-left: 430px;
+    }
+    .BiTool_Charts_ThirdChart {
+        
+            margin-top: 112px;
+            margin-left: 358px;
+        
+    }
+    .BiTool_Charts_FifthChart{
+        margin-top: 162px;
+        width: 90px;
+        margin-left: 302px;
+    }
+    .BiTool_Charts_ThirdProgressiveCircle {
+        margin-left: 482px;
+        margin-top: 265px;
+    }
+    .BiTool_Charts_SecondProgressiveCircle {
+        margin-left: 411px;
+        margin-top: 265px;
+    }
+    .BiTool_Charts_FirstProgressiveCircle {
+        margin-left: 339px;
+        margin-top: 265px;
+    }
+    .BiTool_Charts_FourthChart{
+        width: 85px;
+    }    
+    .BiTool_Charts_ThirdChart{
+        width: 90px;
+    }
 
 }
 @media (max-width: 506px) {
@@ -1269,10 +1530,49 @@ footer .DownloadButtons_GooglePlay{
     .IdScanner_Wrapper{
         padding-top: 200px;
     }
+    .SectionDescription_Title{
+        font-size: 27px;
+    }
+    .SectionDescription_MainText{
+        font-size: 14px;
+    }
+    .BiTool_SectionDescription .SectionDescription_MainText{
+        max-width: 300px;
+    }
+    .IdScanner{
+        padding-bottom: 1600px;
+    }
+    .QrCode_Coctail{
+        max-width: 340px;
+    }
+    .QrCode_MainContent_SectionDescriptionPlusDownloadButtons .DownloadButtons_AppStore{
+        margin-right: 0px;
+        padding-left: 22px;
+        padding-right: 22px;
+        margin-bottom: 50px;
+    }
+    .QrCode_MainContent_SectionDescriptionPlusDownloadButtons .DownloadButtons{
+        flex-direction: column;
+    }
+    .QrCode_MainContent_PhoneImg{
+        margin-top: 300px;
+    }
+    .QrCode_Coctail{
+        margin-top: 950px;
+    }
+    .QrCode_NightlifeText{
+        margin-top: 910px;
+    }
 }
 @media (max-width: 470px) {
         .OurMission{
             margin-bottom: 200px;
+        }
+        .QrCode_MainContent{
+            padding-top: 100px;
+        }
+        .BiTool{
+            margin-bottom: 376px;
         }
 }
 @media (max-width: 441px) {
@@ -1326,6 +1626,19 @@ footer .DownloadButtons_GooglePlay{
     .StartUsing{
         margin-top: 150px;
     }
+    .BiTool_Charts_FirstProgressiveCircle{
+        margin-left: 294px;
+    }
+    .BiTool_Charts_SecondProgressiveCircle{
+        margin-left: 363px;
+    }
+    .BiTool_Charts_ThirdProgressiveCircle{
+        margin-left: 430px;
+    }
+    .BiTool_Charts_FirstChart{
+        margin-left: -6px;
+        margin-top: 200px;
+    }
 }
 @media (max-width: 413px) {
     .header_Offer_LeftSide_Title{
@@ -1353,6 +1666,41 @@ footer .DownloadButtons_GooglePlay{
     .OurMission_Description{
         margin-left: 10px;
     }
+    .BiTool_Charts_FourthChart{
+        margin-top: 0px;
+        margin-left: 405px;
+    }
+    .BiTool_Charts_ThirdChart{
+        margin-top: 85px;
+    }
+    .BiTool_Charts_FifthChart{
+        margin-top: 138px;
+        margin-left: 287px;
+    }
+    .BiTool_Charts_FourthSlicedCircle{
+        margin-top: 92px;
+    }
+    .BiTool_Charts_ThirdSlicedCircle{
+        margin-top: 92px;
+        margin-left: 236px;
+    }
+    .BiTool_Charts_SecondSlicedCircle{
+        margin-top: 92px;
+        margin-left: 197px;
+    }
+    .BiTool_Charts_FirstSlicedCircle{
+        margin-top: 92px;
+        margin-left: 159px;
+    }
+    .QrCode_MainContent_PhoneImg img{
+        max-width: 260px;
+    }
+    .QrCode_MainContent_SectionDescriptionPlusDownloadButtons .SectionDescription{
+        padding-top: 40px;
+    }
+    .QrCode_MainContent_PhoneImg_HigherPhone{
+        margin-top: 200px;
+    }
 }
 @media (max-width: 350px) {
     .OurMission_PhoneImg_Img{
@@ -1374,5 +1722,28 @@ footer .DownloadButtons_GooglePlay{
     .StartUsing_Login{
         padding-bottom: 60px;
     }
-    
+    .BiTool_Charts_FirstProgressiveCircle{
+        margin-left: 276px;
+    }
+    .BiTool_Charts_SecondProgressiveCircle{
+        margin-left: 338px;
+    }
+    .BiTool_Charts_ThirdProgressiveCircle{
+        margin-left: 403px;
+    }
+    .BiTool_Charts_FourthSlicedCircle{
+        margin-left: 295px;
+    }
+    .BiTool_Charts_ThirdSlicedCircle{
+        margin-left: 260px;
+    }
+    .BiTool_Charts_SecondSlicedCircle{
+        margin-left: 222px;
+    }
+    .BiTool_Charts_FirstSlicedCircle{
+        margin-left: 184px;
+    }
+    .BiTool_Charts_FourthChart{
+        margin-left: 385px;
+    }
 }
