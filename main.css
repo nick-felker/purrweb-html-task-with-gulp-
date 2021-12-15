@@ -948,6 +948,17 @@ footer .DownloadButtons_GooglePlay{
     .StartUsing_Login{
         margin-right: 150px;
     }
+    .IdScanner_SectionDescription{
+        padding-right: 150px;
+    }
+    .IdScanner_Wrapper{
+        padding-top: 400px;
+    }
+}
+@media (max-width: 1727px) {
+    .OurMission_Description{
+        margin-right: 150px;
+    }
 }
 @media (max-width: 1644px) {
     .StartUsing{
@@ -967,12 +978,12 @@ footer .DownloadButtons_GooglePlay{
         max-width: 700px;
         padding-bottom: 100px;
     }
-}
-@media (max-width: 1727px) {
-    .OurMission_Description{
-        margin-right: 150px;
+    .IdScanner_Wrapper{
+        margin-left: 150px;
     }
+
 }
+
 @media (max-width: 1613px) {
     .header_Offer_RightSide{
         margin-right: 150px;
@@ -984,6 +995,16 @@ footer .DownloadButtons_GooglePlay{
 @media (max-width: 1554px) {
     .OurMission_PhoneImg_Img{
         width: 700px;
+    }
+    .IdScanner_SectionDescription{
+        padding-right: 75px;
+    }
+    .IdScanner_Wrapper{
+        padding-top: 300px;
+        margin-left: 75px;
+    }
+    .OurMission{
+        margin-bottom: 400px;
     }
 }
 @media (max-width: 1438px) {
@@ -1023,6 +1044,24 @@ footer .DownloadButtons_GooglePlay{
     }
     .OurMission_Description{
         margin-right: 100px;
+    }
+    .OurMission{
+        margin-bottom: 330px;
+    }
+    .IdScanner_PhoneImages_FirstPhone{
+        margin-right: 5px;
+    }
+    .IdScanner_Wrapper{
+        padding-top: 240px;
+    }
+    .IdScanner_PhoneImages img{
+        max-width: 250px;
+    }
+    .IdScanner_SectionDescription{
+        padding-top: 300px;
+    }
+    .IdScanner_Wrapper{
+        margin-left: 30px;
     }
 }
 @media (max-width: 1100px) {
@@ -1067,6 +1106,26 @@ footer .DownloadButtons_GooglePlay{
     .OurMission_Description_BackgroundBlur{
         margin-left: 36px;
     }
+    .IdScanner_Wrapper{
+        display: flex;
+        margin-left: 0px;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    .IdScanner_PhoneImages{
+        display: flex;
+        margin-top: 100px;
+        align-items: center;
+        flex-direction: column;
+    }
+    .IdScanner_PhoneImages img:first-child{
+        margin-bottom: 30px;
+    }
+    .IdScanner_SectionDescription{
+        padding-right: 0px;
+        padding-top: 200px;
+    }
+    
 
     
 }
@@ -1096,6 +1155,10 @@ footer .DownloadButtons_GooglePlay{
     .OurMission_PhoneImg{
         margin-top: 300px;
     }
+    .IdScanner_SectionDescription{
+        padding-top: 150px;   
+    }
+
 }
 @media (max-width: 700px) {
     .header_Offer_LeftSide_Title h1{
@@ -1134,6 +1197,9 @@ footer .DownloadButtons_GooglePlay{
         padding-right: 150px;
         padding-left: 40px;
     }
+    .IdScanner_SectionDescription{
+        padding-top: 90px;   
+    }
 }
 @media (max-width: 578px) {
     .header_Offer_LeftSide{
@@ -1170,6 +1236,9 @@ footer .DownloadButtons_GooglePlay{
         font-size: 15px;
         max-width: 300px;
     }
+    .IdScanner_SectionDescription{
+        padding-top: 0px;
+    }
 
 }
 @media (max-width: 506px) {
@@ -1188,9 +1257,23 @@ footer .DownloadButtons_GooglePlay{
     .OurMission{
         margin-top: 150px;
     }
+    .IdScanner_SectionDescription .SectionDescription_Title{
+        font-size: 27px;
+    }
+    .IdScanner_SectionDescription .SectionDescription_MainText{
+        font-size: 14px;
+    }
+    .SectionDescription_MainText{
+        max-width: 300px;
+    }
+    .IdScanner_Wrapper{
+        padding-top: 200px;
+    }
 }
 @media (max-width: 470px) {
-    
+        .OurMission{
+            margin-bottom: 200px;
+        }
 }
 @media (max-width: 441px) {
     .header_Offer_RightSide_Img{
@@ -1274,6 +1357,9 @@ footer .DownloadButtons_GooglePlay{
 @media (max-width: 350px) {
     .OurMission_PhoneImg_Img{
         max-width: 310px;
+    }
+    .OurMission{
+        margin-bottom: 170px;
     }
 }
 @media (max-width: 348px) {
