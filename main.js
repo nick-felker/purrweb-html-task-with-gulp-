@@ -5,6 +5,7 @@ if (window.innerWidth <= 990){
     document.getElementsByClassName("header_Offer_RightSide_BackgroundBlur")[0].style.right = "300px";
     document.getElementsByClassName("header_Offer_RightSide_BackgroundBlur")[0].style.width = "250px";
     document.getElementsByClassName("header_Offer_RightSide")[0].style.marginRight = "0px";
+    console.log("Done")
 }
 
 
