@@ -968,12 +968,22 @@ footer .DownloadButtons_GooglePlay{
         padding-bottom: 100px;
     }
 }
+@media (max-width: 1727px) {
+    .OurMission_Description{
+        margin-right: 150px;
+    }
+}
 @media (max-width: 1613px) {
     .header_Offer_RightSide{
         margin-right: 150px;
     }
     .header_DownloadApp .DownloadButtons{
         margin-right: 110px;
+    }
+}
+@media (max-width: 1554px) {
+    .OurMission_PhoneImg_Img{
+        width: 700px;
     }
 }
 @media (max-width: 1438px) {
@@ -1011,6 +1021,17 @@ footer .DownloadButtons_GooglePlay{
     .header_Offer_LeftSide{
         margin-left: 50px;
     }
+    .OurMission_Description{
+        margin-right: 100px;
+    }
+}
+@media (max-width: 1100px) {
+    .OurMission_PhoneImg_Img{
+        width: 500px;
+    }
+    .OurMission_Description .SectionDescription_MainText{
+        max-width: 400px;
+    }
 }
 @media (max-width: 1025px ) {
     .StartUsing_Mail h4{
@@ -1025,6 +1046,28 @@ footer .DownloadButtons_GooglePlay{
         padding-top: 70px;
         padding-bottom: 70px;
     }
+    .OurMission{
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    .OurMission_PhoneImg_Img{
+        position: relative;
+        left: 0;
+        width: 800px;
+    }
+    .OurMission_PhoneImg{
+        margin-top: 400px;
+    }
+    .OurMission_PhoneImg_Img{
+        transform: rotate(-90deg);
+    }
+    .OurMission_Description{
+        margin-right: 0px;
+    }
+    .OurMission_Description_BackgroundBlur{
+        margin-left: 36px;
+    }
+
     
 }
 @media (max-width: 800px) {
@@ -1047,10 +1090,22 @@ footer .DownloadButtons_GooglePlay{
         padding-left: 40px;
         max-width: 500px;
     }
+    .OurMission_PhoneImg_Img{
+        max-width: 500px;
+    }
+    .OurMission_PhoneImg{
+        margin-top: 300px;
+    }
 }
 @media (max-width: 700px) {
     .header_Offer_LeftSide_Title h1{
         font-size: 60px;
+        position: relative;
+        z-index: 3;
+    }
+    .header_Offer_LeftSide_UnderTitle_Text p{
+        position: relative;
+        z-index: 3;
     }
     .header_Offer_LeftSide_UnderTitle_Text{
         width: 300px;
@@ -1108,7 +1163,31 @@ footer .DownloadButtons_GooglePlay{
     .StartUsing_Login h4{
         font-size: 24px;
     }
+    .OurMission_Description .SectionDescription_Title{
+        font-size: 45px;
+    }
+    .OurMission_Description .SectionDescription_MainText{
+        font-size: 15px;
+        max-width: 300px;
+    }
 
+}
+@media (max-width: 506px) {
+    .OurMission_PhoneImg_Img{
+        max-width: 400px;
+    }
+    .OurMission_PhoneImg{
+        margin-top: 220px;
+    }
+    .OurMission_Description .SectionDescription_Title{
+        font-size: 27px;
+    }
+    .OurMission_Description .SectionDescription_MainText{
+        font-size: 14px;
+    }
+    .OurMission{
+        margin-top: 150px;
+    }
 }
 @media (max-width: 470px) {
     
@@ -1184,6 +1263,17 @@ footer .DownloadButtons_GooglePlay{
     }
     .StartUsing_Mail h4{
         max-width: 320px;
+    }
+    .OurMission_PhoneImg_Img{
+        max-width: 350px;
+    }
+    .OurMission_Description{
+        margin-left: 10px;
+    }
+}
+@media (max-width: 350px) {
+    .OurMission_PhoneImg_Img{
+        max-width: 310px;
     }
 }
 @media (max-width: 348px) {
