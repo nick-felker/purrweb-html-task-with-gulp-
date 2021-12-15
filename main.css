@@ -501,7 +501,7 @@ body{
     background-size: 100%;
     margin-top: 900px;
     height: 700px;
-    background-position: top;
+    background-position: center;
 }
 .QrCode_NoTab_CentralImg{
     
@@ -1039,6 +1039,13 @@ footer .DownloadButtons_GooglePlay{
     .QrCode_MainContent_PhoneImg{
         margin-right: 0px;
     }
+    .QrCode_NoTab{
+        margin-top: 2700px;
+        
+    }
+    .QrCode_NoTab_CentralImg{
+        margin-top: -120px;
+    }
 }
 
 @media (max-width: 1438px) {
@@ -1066,10 +1073,20 @@ footer .DownloadButtons_GooglePlay{
     .BiTool_Charts {
         margin-right: 652px;
     }
+    .LiquidPhone{
+        margin-top: 357px;
+    }
+    .LiquidPhone_SectionDescription{
+        margin-bottom: 200px;
+    }
+    
 }
 @media (max-width: 1320px) {
     .BiTool_SectionDescription{
         margin-left: 50px;
+    }
+    .LiquidPhone {
+        margin-top: 286px;
     }
 }
 @media (max-width: 1275px) {
@@ -1114,6 +1131,9 @@ footer .DownloadButtons_GooglePlay{
     .IdScanner_Wrapper{
         margin-left: 30px;
     }
+    .QrCode_NoTab_GenerateYourQrCode_MainText{
+        margin-right: 50px;
+    }
 }
 @media (max-width: 1175px) {
     .BiTool{
@@ -1138,6 +1158,15 @@ footer .DownloadButtons_GooglePlay{
     .BiTool{
         margin-bottom: 752px;
     }
+    .QrCode_NoTab{
+        margin-top: 2000px;
+    }
+    .QrCode_NoTab_GenerateYourQrCode{
+        margin-top: 40px;
+    }
+    .QrCode_NoTab_CentralImg{
+        left: 37%;
+    }
 }
 @media (max-width: 1100px) {
     .OurMission_PhoneImg_Img{
@@ -1145,6 +1174,9 @@ footer .DownloadButtons_GooglePlay{
     }
     .OurMission_Description .SectionDescription_MainText{
         max-width: 400px;
+    }
+    .LiquidPhone {
+        margin-top: 153px;
     }
 }
 @media (max-width: 1025px ) {
@@ -1203,9 +1235,93 @@ footer .DownloadButtons_GooglePlay{
     .IdScanner{
         padding-bottom: 1900px;
     }
+    .QrCode_NoTab_GenerateYourQrCode_Title{
+        margin-left: 40px;
+        font-size: 30px;
+    }
+    .QrCode_NoTab_GenerateYourQrCode_MainText{
+        font-size: 18px;
+    }
+    .QrCode_NoTab_CentralImg{
+        left: 32%;
+        margin-top: -175px;
+    }
+    .QrCode_MiniText{
+        left: 372px;
+    }
+    .QrCode_NoTab{
+        margin-top: 300px;
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    .QrCode{
+        margin-bottom: 2000px;
+    }
+    .QrCode_NoTab_GenerateYourQrCode{
+        margin-top: -271px;
+        flex-direction: column;
+    }
+    .QrCode_NoTab_GenerateYourQrCode_Title{
+        margin-left: 0px;
+        margin-bottom: 30px;
+    }
+    .QrCode_NoTab_GenerateYourQrCode_MainText{
+        margin-right: 0px;
+        
+    }
+    .QrCode_NoTab_GenerateYourQrCode{
+        align-items: flex-start;
+    }
+    
     
 
     
+}
+@media (max-width: 1011px) {
+    .LiquidPhone {
+        margin-top: -7px;
+    }
+    .LiquidPhone_MainImg_SecondBorderDiv{
+        margin-top: -57px;
+        margin-right: 402px;
+    }
+    .LiquidPhone_MainImg_FirstBorderDiv{
+        margin-top: 106px;
+    }
+    .LiquidPhone_MainImg_FourthBorderDiv{
+        margin-right: 468px;
+    }
+    .LiquidPhone_MainImg_ThirdBorderDiv{
+        margin-top: 929px;
+        margin-left: 559px;
+    }
+    .LiquidPhone_SectionDescription{
+        justify-content: center;
+        margin-right: 0px;
+    }
+    .NoTabOnPhone_Img img{
+        max-width: 600px;
+    }
+    .LiquidPhone{
+        margin-bottom: 100px;
+    }
+    
+}
+@media (max-width: 870px) {
+    .LiquidPhone_SectionDescription{
+        margin-bottom: 300px;        
+    }
+    .LiquidPhone_MainImg img{
+        max-width: 700px;
+    }
+    .LiquidPhone_MainImg_FourthBorderDiv{
+        margin-top: 573px;
+    }
+    .LiquidPhone_MainImg_ThirdBorderDiv{
+        margin-top: 674px;
+        margin-left: 418px;
+    }
 }
 @media (max-width: 800px) {
     .header_LogoPlusLogin{
@@ -1250,8 +1366,89 @@ footer .DownloadButtons_GooglePlay{
         display: flex;
         flex-direction: column;
     }
+    .QrCode_MiniText{
+        top: 667px;
+        left: 272px;
+    }
+    .QrCode_NoTab_Arrow{
+        transform: rotate(26deg);
+        margin-left: 40px;
+    }
+    .QrCode_NoTab_CentralImg{
+        left: 29%;
+    }
+    .QrCode_NoTab{
+        margin-top: 2100px;
+    }
+    .QrCode_NoTab{
+        background-position: center;
+        margin-top: 705px;
+    }
+    .QrCode{
+        margin-bottom: 2200px;
+    }
+    .LiquidPhone_SectionDescription{
+        margin-top: 300px;
+    }
+    .LiquidPhone_MainImg_FirstBorderDiv p{
+        font-size: 16px;
+    }
+    .LiquidPhone_MainImg_FirstBorderDiv{
+        padding: 20px 25px 20px 24px;
+    }
+
+    .LiquidPhone_MainImg_SecondBorderDiv p{
+        font-size: 16px;
+    }
+    .LiquidPhone_MainImg_SecondBorderDiv{
+        padding: 20px 25px 20px 24px;
+    }
+    
+    .LiquidPhone_MainImg_ThirdBorderDiv p{
+        font-size: 16px;
+    }
+    .LiquidPhone_MainImg_ThirdBorderDiv{
+        padding: 20px 25px 20px 24px;
+    }
+    .LiquidPhone_MainImg_FourthBorderDiv p{
+        font-size: 16px;
+    }
+    .LiquidPhone_MainImg_FourthBorderDiv{
+        padding: 20px 25px 20px 24px;
+    }
+    .LiquidPhone_MainImg img{
+        max-width: 600px;
+    }
 
 
+}
+@media (max-width: 750px) {
+    .GetInTouch_Feed_Form_Name{
+        padding-right: 300px;
+    }
+    .GetInTouch_Feed_Form_VenueName{
+        padding-right: 300px;
+    }
+    .GetInTouch_Feed_Form_City_VenueCity{
+        margin-right: 0px;
+    }
+    .GetInTouch_Feed_Form_City{
+        flex-direction: column;
+        align-items: center;
+    }
+    .GetInTouch_Feed_Form_City_VenueCity{
+        padding-right: 300px;
+        margin-bottom: 20px;
+    }
+    .GetInTouch_Feed_Form_City_StateCity{
+        padding-right: 300px;
+    }
+    .GetInTouch_Feed_Form_Email{
+        padding-right: 300px;
+    }
+    .GetInTouch_Feed_Form_Subject{
+        padding-right: 300px;
+    }
 }
 @media (max-width: 700px) {
     .header_Offer_LeftSide_Title h1{
@@ -1292,6 +1489,43 @@ footer .DownloadButtons_GooglePlay{
     }
     .IdScanner_SectionDescription{
         padding-top: 90px;   
+    }
+    .QrCode_NoTab_GenerateYourQrCode_Title{
+        font-size: 24px;
+    }
+    .QrCode_NoTab_GenerateYourQrCode_MainText{
+        font-size: 12px;
+    }
+    .QrCode_NoTab_CentralImg{
+        margin-top: -229px;
+    }
+    .NoTabOnPhone{
+        display: none;
+    }
+    .GetInTouch{
+        margin-top: 200px;
+    }
+    .footer_DownloadOurApp .DownloadButtons_AppStore{
+        margin-right: 0px;
+        margin-bottom: 50px;
+    }
+    .footer_DownloadOurApp .DownloadButtons{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer_Info{
+        flex-direction: column-reverse;
+        align-items: center;
+        
+    }
+    .footer_Info_Links{
+        text-align: center;
+        margin-right: 0px;
+    }
+    .footer_Info_Copyright{
+        text-align: center;
+        margin-left: 0px;
+        margin-top: 80px;
     }
 }
 @media (max-width: 633px) {
@@ -1355,6 +1589,73 @@ footer .DownloadButtons_GooglePlay{
     .BiTool{
         margin-bottom: 476px;
     }
+    .QrCode_NoTab_PhoneImg_Img{
+        width: 200px;
+    }
+    .QrCode_NoTab_CentralImg{
+        margin-top: -100px;
+        left: 35%;
+    }
+    .QrCode_MiniText {
+        top: 377px;
+        left: 162px; 
+    }
+    .QrCode_NoTab{
+        height: 490px;
+        margin-top: 2000px;
+    }
+    .QrCode_NoTab_GenerateYourQrCode{
+        margin-top: -139px;
+    }
+    .QrCode_NoTab{
+        margin-top: 0px;
+    }
+    .QrCode{
+        margin-bottom: 2000px;
+    }
+    .QrCode_NoTab_GenerateYourQrCode_Title{
+        font-size: 34px;
+    }
+    .QrCode_NoTab_GenerateYourQrCode_MainText{
+        font-size: 16px;
+    }
+    .LiquidPhone_MainImg_FirstBorderDiv{
+        margin-left: 221px;
+    }
+    .LiquidPhone_MainImg_SecondBorderDiv{
+        margin-right: 258px;
+    }
+    .LiquidPhone_MainImg_FourthBorderDiv{
+        margin-right: 257px;
+    }
+    .LiquidPhone_MainImg_ThirdBorderDiv {
+        margin-top: 589px;
+        margin-left: 326px;
+    }
+    .NoTabOnPhone_Img img{
+        max-width: 400px;
+    }
+    .GetInTouch .SectionDescription_MainText{
+        max-width: 500px;
+    }
+    .GetInTouch_Feed_Form_Name{
+        padding-right: 200px;
+    }
+    .GetInTouch_Feed_Form_VenueName{
+        padding-right: 200px;
+    }
+    .GetInTouch_Feed_Form_City_VenueCity{
+        padding-right: 200px;
+    }
+    .GetInTouch_Feed_Form_City_StateCity{
+        padding-right: 200px;
+    }
+    .GetInTouch_Feed_Form_Email{
+        padding-right: 200px;
+    }
+    .GetInTouch_Feed_Form_Subject{
+        padding-right: 200px;
+    }
 }
 @media (max-width: 600px) {
     .QrCode_Coctail{
@@ -1374,8 +1675,45 @@ footer .DownloadButtons_GooglePlay{
     .QrCode_MainContent_PhoneImg{
         margin-top: 250px;
     }
-
-
+    .QrCode_NoTab{
+        margin-top: 2100px;
+    }
+    .QrCode_NoTab {
+        margin-top: 0px;
+    }
+    .QrCode{
+        margin-bottom: 2200px;
+    }
+    .LiquidPhone_MainImg img{
+        max-width: 400px;
+    }
+    .LiquidPhone_MainImg_SecondBorderDiv p{
+        font-size: 14px;
+    }
+    .LiquidPhone_MainImg_SecondBorderDiv{
+        margin-top: -127px;
+        margin-right: 155px;
+    }
+    .LiquidPhone_MainImg_FirstBorderDiv p{
+        font-size: 14px;
+    }
+    .LiquidPhone_MainImg_FirstBorderDiv{
+        margin-top: 13px;
+    }
+    .LiquidPhone_MainImg_FourthBorderDiv p{
+        font-size: 14px;
+    }
+    .LiquidPhone_MainImg_FourthBorderDiv{
+        margin-top: 364px;
+        margin-right: 182px;
+    }
+    .LiquidPhone_MainImg_ThirdBorderDiv p{
+        font-size: 14px;
+    }
+    .LiquidPhone_MainImg_ThirdBorderDiv{
+        margin-top: 444px;
+    }
+    
 }
 @media (max-width: 578px) {
     .header_Offer_LeftSide{
@@ -1500,6 +1838,16 @@ footer .DownloadButtons_GooglePlay{
     .BiTool_Charts_ThirdChart{
         width: 90px;
     }
+    .QrCode_MiniText{
+        left: 100px;
+    }
+    .QrCode_NoTab_Arrow{
+        transform: rotate(33deg);
+        margin-left: 98px;
+    }
+    .QrCode_NoTab_CentralImg{
+        left: 32%;
+    }
 
 }
 @media (max-width: 506px) {
@@ -1563,6 +1911,27 @@ footer .DownloadButtons_GooglePlay{
     .QrCode_NightlifeText{
         margin-top: 910px;
     }
+    .GetInTouch_Feed_Form_Name{
+        padding-right: 100px;
+    }
+    .GetInTouch_Feed_Form_VenueName{
+        padding-right: 100px;
+    }
+    .GetInTouch_Feed_Form_City_VenueCity{
+        padding-right: 100px;
+    }
+    .GetInTouch_Feed_Form_City_StateCity{
+        padding-right: 100px;
+    }
+    .GetInTouch_Feed_Form_Email{
+        padding-right: 100px;
+    }
+    .GetInTouch_Feed_Form_Subject{
+        padding-right: 100px;
+    }
+    .GetInTouch .SectionDescription_MainText{
+        max-width: 300px;
+    }
 }
 @media (max-width: 470px) {
         .OurMission{
@@ -1573,6 +1942,21 @@ footer .DownloadButtons_GooglePlay{
         }
         .BiTool{
             margin-bottom: 376px;
+        }
+        .LiquidPhone_MainImg_FirstBorderDiv{
+            margin-left: 174px;
+            padding: 13px 20px 13px 17px;
+        }
+        .LiquidPhone_MainImg_SecondBorderDiv{
+            padding: 13px 20px 13px 17px;
+        }
+        .LiquidPhone_MainImg_ThirdBorderDiv{
+            margin-left: 236px;
+            margin-top: 439px;
+            padding: 13px 20px 13px 17px;
+        }
+        .LiquidPhone_MainImg_FourthBorderDiv{
+            padding: 13px 20px 13px 17px;
         }
 }
 @media (max-width: 441px) {
@@ -1639,6 +2023,13 @@ footer .DownloadButtons_GooglePlay{
         margin-left: -6px;
         margin-top: 200px;
     }
+    .QrCode_NoTab_CentralImg{
+        left: 29%;
+    }
+    .QrCode_NoTab_BackgroundBlur{
+        width: 230px;
+        filter: blur(250px);
+    }
 }
 @media (max-width: 413px) {
     .header_Offer_LeftSide_Title{
@@ -1701,6 +2092,118 @@ footer .DownloadButtons_GooglePlay{
     .QrCode_MainContent_PhoneImg_HigherPhone{
         margin-top: 200px;
     }
+    .QrCode{
+        margin-bottom: 1971px;
+    }
+    .QrCode_NoTab_PhoneImg_Img{
+        width: 181px;
+    }
+    .QrCode_MiniText{
+        left: 57px;
+        top: 359px
+    }
+    .QrCode_NoTab_CentralImg{
+        left: 27%;
+    }
+    .LiquidPhone_MainImg img{
+        max-width: 300px;
+    }
+    .LiquidPhone_MainImg_SecondBorderDiv p{
+        font-size: 12px;
+    }
+    .LiquidPhone_SectionDescription{
+        margin-bottom: 170px;
+    }
+    .LiquidPhone_MainImg_SecondBorderDiv{
+        margin-top: -57px;
+    }
+    .LiquidPhone_MainImg_FirstBorderDiv p{
+        font-size: 12px;
+    }
+    .LiquidPhone_MainImg_FirstBorderDiv{
+        margin-top: 38px;
+        margin-left: 159px;
+    }
+    .LiquidPhone_MainImg_FourthBorderDiv p{
+        font-size: 12px;
+    }
+    .LiquidPhone_MainImg_FourthBorderDiv{
+        margin-top: 266px;
+        margin-right: 165px;
+    }
+    .LiquidPhone_MainImg_ThirdBorderDiv p{
+        font-size: 12px;
+    }
+    .LiquidPhone_MainImg_ThirdBorderDiv{
+        margin-left: 189px;
+        margin-top: 337px;
+    }
+    .NoTabOnPhone_Img img{
+        max-width: 300px;
+    }
+    .GetInTouch{
+        margin-top: 170px;
+    }
+    .GetInTouch_Feed_Form_Name{
+        padding-right: 20px;
+        margin-bottom: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .GetInTouch_Feed_Form_VenueName{
+        padding-right: 20px;
+        margin-bottom: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .GetInTouch_Feed_Form_City_StateCity{
+        padding-right: 20px;
+        margin-bottom: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .GetInTouch_Feed_Form_City_VenueCity{
+        padding-right: 20px;
+        margin-bottom: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .GetInTouch_Feed_Form_Subject{
+        padding-right: 20px;
+        margin-bottom: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .GetInTouch_Feed_Form_City{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        
+    }
+    .GetInTouch_Feed_Form_Email{
+        margin-bottom: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right: 20px;
+    }
+    .GetInTouch_Feed_Form_Message{
+        max-width: 290px;
+    }
+    .GetInTouch .SectionDescription_MainText{
+        max-width: 300px;
+    }
+    .GetInTouch_Feed_Form{
+        max-width: 300px;
+    }
+    .GetInTouch_Feed_Form_Send{
+        padding: 30px 100px;
+    }
+    .GetInTouch .SectionDescription{
+        margin-bottom: 50px;
+    }
+    .GetInTouch{
+        margin-bottom: 140px;
+    }
+
 }
 @media (max-width: 350px) {
     .OurMission_PhoneImg_Img{
@@ -1745,5 +2248,8 @@ footer .DownloadButtons_GooglePlay{
     }
     .BiTool_Charts_FourthChart{
         margin-left: 385px;
+    }
+    .QrCode_NoTab_CentralImg{
+        left: 25%;
     }
 }
