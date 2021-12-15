@@ -80,6 +80,7 @@ body{
     font-size: 75px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
+    max-width: 700px;
 }
 .header_Offer_LeftSide_UnderTitle{
     display: flex;
@@ -474,6 +475,9 @@ body{
     padding-top: 80px;
     margin-left: 200px;
 }
+.QrCode_MainContent .SectionDescription_MainText{
+    width: 350px;
+}
 
 .QrCode_MainContent_PhoneImg{
     margin-right: 100px;
@@ -497,10 +501,14 @@ body{
     background-position: top;
 }
 .QrCode_NoTab_CentralImg{
-    padding-top: 770px;
+    
     left: 40%;
     position: absolute;
 }
+.LiquidPhone{
+    margin-top: 240px;
+}
+
 .QrCode_NoTab_BackgroundBlur{
     width: 300px;
     position: absolute;
@@ -512,6 +520,25 @@ body{
 .QrCode_NoTab_PhoneImg{
     z-index: 2;
     position: relative;
+}
+.QrCode_NoTab_ScanQrCode{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.QrCode_MiniText{
+    position: absolute;
+   
+    top: 200px;
+    left: 400px
+}
+.QrCode_NoTab_ScanQrCode{
+    width: 170px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.QrCode_NoTab_Arrow{
+    transform: rotate(-30deg);
 }
 .QrCode_NoTab_GenerateYourQrCode{
     display: flex;
@@ -526,7 +553,8 @@ body{
 }
 .QrCode_NoTab_GenerateYourQrCode_MainText{
     font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
+    font-size: 20px;
+    font-weight: 500;
     margin-right: 100px;
 }
 /*liquid phone section styles*/
@@ -909,97 +937,34 @@ footer .DownloadButtons_GooglePlay{
 }
 
 /*media screens*/
-@media (max-width: 1812px) {
-    .StartUsing_Mail{
-        margin-left: 150px;
-    }
-    .StartUsing_Login{
-        margin-right: 150px;
-    }
-    .IdScanner_SectionDescription{
-        padding-right:  150px;
-    }
-    .BiTool_Charts{
-        margin-right: 830px;
-    }
-}
-@media (max-width: 1740px) {
-    .OurMission_Description{
-        margin-right: 200px;
-    }
-}
-@media (max-width: 1700px) {
-    .StartUsing_Mail{
-        margin-right: 0px;
-        margin-left: 0px
-    }
-    .StartUsing_Login{
-        margin-top: 50px;
-        padding: 150px 140px 140px 65px;
-    }
-    .IdScanner_Wrapper{
-        padding-top: 400px;
-    }
-    .BiTool_Charts{
-        margin-right: 760px;
-    }
-    
-    
-    .StartUsing{
-        align-items: center;
-        flex-direction: column;
-    }
-    .StartUsing_Login{
-        margin-right: 0px;
-    }
-    .StartUsing_Mail{
-        max-width: 600px;
-    }
-}
-
-@media (max-width: 1640px) {
+@media (max-width: 1613px) {
     .header_Offer_RightSide{
         margin-right: 150px;
     }
     .header_DownloadApp .DownloadButtons{
-        margin-right: 100px;
+        margin-right: 110px;
     }
-    .IdScanner_Wrapper{
-        margin-left: 150px;
-    }
-    .IdScanner_Wrapper{
-        padding-top: 300px;
-    }  
 }
-@media (max-width: 1540px) {
-    .header_Offer_LeftSide_Title{
-        max-width: 500px;
+@media (max-width: 1438px) {
+    .header_Offer_LeftSide{
+        margin-left: 100px;
     }
-    .OurMission_Description{
-        margin-right: 100px;
+    .header_LogoPlusLogin{
+        margin-left: 100px;
     }
-    .BiTool_SectionDescription{
+    .header_Offer_RightSide_BackgroundBlur{
+        transform: rotate(0deg);
+    }
+    .header_Offer_RightSide{
+        margin-right: 50px;
+    }
+    .header_DownloadApp_Text{
         margin-left: 100px;
     }
 }
-@media (max-width: 1430px) {
-    .BiTool{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-   .BiTool_Charts{
-       margin-top: 200px;
-   }
-   .IdScanner{
-       margin-bottom: 0px;
-   }
-   .BiTool_SectionDescription{
-       margin-left: 0px;
-   }
-}
-@media (max-width: 1380px) {
+@media (max-width: 1275px) {
     .header_DownloadApp{
+        display: flex;
         flex-direction: column;
     }
     .header_DownloadApp_Text{
@@ -1007,417 +972,131 @@ footer .DownloadButtons_GooglePlay{
     }
     .header_DownloadApp .DownloadButtons{
         margin-right: 0px;
-        margin-top: 100px;
+        padding-top: 70px;
     }
-    .OurMission_PhoneImg_Img{
-        width: 800px;
+    .header_Offer_RightSide{
+        margin-right: 10px;
     }
-    .IdScanner_PhoneImages_FirstPhone{
-        margin-right: 5px;
-    }
-    .IdScanner_Wrapper{
+    .header_Offer_LeftSide{
         margin-left: 50px;
     }
 }
-@media (max-width: 1300px) {
-    .header_Offer_LeftSide{
-        margin-left: 100px;
-    }
+@media (max-width: 800px) {
     .header_LogoPlusLogin{
-        margin-left: 100px;
+        justify-content: space-between;
     }
-    .IdScanner_SectionDescription{
-        padding-right: 50px;
+    .header_LogoPlusLogin_Login{
+        margin-right: 100px;
     }
-    .IdScanner_Wrapper{
-        padding-top: 200px;
-    }
-}
-@media (max-width: 1220px) {
     .header_Offer_LeftSide_UnderTitle_Icon_Bar{
         display: none;
-    }
-    .header_Offer_LeftSide_UnderTitle{
-        margin-left: 0px;
     }
     .header_Offer_LeftSide_UnderTitle_Text{
         padding-left: 0px;
     }
     .header_Offer_LeftSide_UnderTitle{
+        margin-left: 0px;
+    }
+    .header_Cookie_Text{
+        padding-left: 40px;
+        max-width: 500px;
+    }
+}
+@media (max-width: 700px) {
+    .header_Offer_LeftSide_Title h1{
+        font-size: 60px;
+    }
+    .header_Offer_LeftSide_UnderTitle_Text{
+        width: 300px;
+        padding-top: 0px;
+    }
+    .header_Cookie_Text{
+        width: 300px;
+    }
+    .header_DownloadApp_Text{
+        font-size: 35px;
+    }
+    .header_Offer_LeftSide_UnderTitle{
         margin-top: 50px;
     }
-    .header_Offer_RightSide{
-        margin-right: 100px;
-    }
-    .OurMission_PhoneImg_Img{
-        width: 700px;
-    }
-    .OurMission_Description{
-        margin-right: 60px;
-    }
-
-    .header_Offer_RightSide_BackgroundBlur{
-        transform: rotate(0deg);
-    }
 }
-@media (max-width: 1160px) {
-    .IdScanner_Wrapper{
-        display: flex;
-        margin-left: 0px;
-        padding-top: 600px;
-        flex-direction: column-reverse;
-        align-items: center;
+@media (max-width: 578px) {
+    .header_Offer_LeftSide{
+        margin-left: 10px;
     }
-    .IdScanner_SectionDescription{
-        padding: 0px 0px 70px 0px;
+    .header_Offer_RightSide_Img{
+        width: 120px;
+        padding-top: 30px;
     }
-    .IdScanner_PhoneImages_FirstPhone{
-        margin-right: 20px;
-    }
-    .OurMission{
-        margin-bottom: 250px;
-    }
-    .IdScanner{
-        margin-bottom: 300px;
-    }
-}
-@media (max-width: 1035px) {
-    .header_Offer_RightSide{
-        margin-right: 50px;
+    .header_Offer_LeftSide_Title h1{
+        font-size: 40px;
+        max-width: 250px;
+        margin-right: 0px;
     }
     .header_LogoPlusLogin{
-        justify-content: space-between;
+        margin-left: 10px;
+    }
+    .header_DownloadApp .DownloadButtons_AppStore{
+        margin-right: 20px;
+    }
+    
+
+}
+@media (max-width: 441px) {
+    .header_Offer_RightSide_Img{
+        width: 80px;
+        padding-top: 100px;
+    }
+    .header_Offer{
+        margin-top: 20px;
+    }
+    .header_DownloadApp_Text{
+        font-size: 24px;
+    }
+    .header_DownloadApp .DownloadButtons {
+        flex-direction: column;
+    }
+    .header_DownloadApp .DownloadButtons_AppStore{
+        margin-right: 0px;
+        margin-bottom: 40px;
+        padding-right: 23px;
+        padding-left: 23px;
+    }
+    .header_LogoPlusLogin_Logo_Text{
+        font-size: 20px;
+    }
+    .header_LogoPlusLogin_Logo_Img{
+        width: 70px;
+    }
+    .header_Cookie_Text{
+        padding-left: 30px;
+        font-size: 10px;
+        max-width: 200px;
+    }
+    .header_LogoPlusLogin_Login{
+        margin-right: 40px;
+    }
+    .header_Offer_LeftSide_Title h1{
+        font-size: 30px;
+        max-width: 180px;
+    }
+    .header_Offer_LeftSide_UnderTitle_Text p{
+        font-size: 18px;
+        max-width: 180px;
     }
     .header_LogoPlusLogin_Logo{
         margin-right: 0px;
     }
-    .header_LogoPlusLogin_Login{
-        margin-right: 200px;
-    }
-    .header_Cookie_Text{
-        padding-left: 30px;
-        max-width: 400px;
-    }
-    .OurMission_PhoneImg_Img{
-        width: 600px;
-    }
-}
-@media (max-width: 944px) {
-   .OurMission{
-       flex-direction: column-reverse;
-   }
-   .OurMission_PhoneImg_Img{
-       position: relative;
-       left: 0;
-       transform: rotate(-90deg);
-   }
-   .OurMission_PhoneImg{
-       display: flex;
-       justify-content: center;
-       margin-top: 300px;
-   }
-   .OurMission_Description_BackgroundBlur{
-       margin-left: 0px;
-       margin-right: 170px;
-   }
-   .OurMission_Description{
-       display: flex;
-       align-items: center;
-       margin: 0px;
-       flex-direction: column;
-       align-items: center;
-   }
-   .IdScanner_Wrapper{
-       padding-top: 500px;
-   }
-}
-@media (max-width: 800px) {
-    .header_Offer_LeftSide{
-        margin-left: 50px;
-    }
-    .header_DownloadApp{
-        margin-top: 90px;
-    }
-    .header_DownloadApp .DownloadButtons{
-        margin-top: 60px;
-    }
-    .header_LogoPlusLogin_Login{
-        margin-right: 100px;
-    }
-    .header_LogoPlusLogin{
-        margin-left: 50px;
-    }
-    .header_Offer_LeftSide_UnderTitle_Text{
-        max-width: 400px;
-    }
-    .header_Offer_LeftSide_Title h1{
-        font-size: 60px;
-    }
-    .header_Offer_RightSide_BackgroundBlur{
-        left: 100px;
-    }
-    .IdScanner_PhoneImages{
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-    }
-    .IdScanner_PhoneImages_FirstPhone{
-        margin-right: 0px;
-        margin-bottom: 40px;
-        margin-top: 50px;
-    }
-    .BiTool_Charts_FourthProgressiveCircle{
-        display: none;
-    }
-    .BiTool{
-        padding-top: 600px;
-    }
-    .BiTool_Charts_SecondChart{
-        display: none;
-    }
-    .BiTool_Charts_FirstChart{
-        margin-top: 400px;
-        padding-right: 100px;
-    }
-    .BiTool_Charts{
-        margin-top: 10px;
-        margin-right: 504px;
-    }
-    .BiTool_SectionDescription{
-        padding-top: 200px;
-    }
-    .BiTool_Charts_FirstChart{
-        left: -352px;
-    }
-    .BiTool_Charts_ThirdChart{
-        margin-top: 258px;
-        width: 140px;
-        margin-left: 289px;
-    }
-    .BiTool_Charts_FifthChart{
-        margin-top: 381px;
-        width: 140px;
-    }
-    .BiTool_Charts_FirstSlicedCircle{
-        margin-top: 290px;
-        width: 40px;
-        margin-left: 6px;
-    }
-    .BiTool_Charts_SecondSlicedCircle{
-        margin-top: 290px;
-        width: 40px;
-        margin-left: 66px;
-    }
-    .BiTool_Charts_ThirdSlicedCircle{
-        margin-top: 290px;
-        width: 40px;
-        margin-left: 127px;
-    }
-    .BiTool_Charts_FourthSlicedCircle{
-        margin-top: 290px;
-        margin-left: 187px;
-        width: 40px;
-    }
-    .BiTool_Charts_FourthChart{
-        width: 140px;
-    }
-    .BiTool_Charts_FifthChart{
-        margin-top: 351px;
-        margin-left: 228px;
-    }
-    .BiTool_Charts_FirstProgressiveCircle{
-        width: 80px;
-        margin-left: 250px;
-    }
-    .BiTool_Charts_SecondProgressiveCircle{
-        width: 80px;
-        margin-left: 343px;
-    }
-    .BiTool_Charts_ThirdProgressiveCircle{
-        width: 80px;
-        margin-left: 437px;
-    }
-   
-}
-@media (max-width: 680px) {
-    .StartUsing_Mail{
-        max-width: 450px;
-        padding: 45px 10px 42px 35px;
-    }
-    .StartUsing_Login{
-        max-width: 450px;
-        padding-top: 70px;
-        padding-bottom: 70px;
-    }
-}
-@media (max-width: 646px) {
-    .header_DownloadApp_Text{
-        font-size: 40px;
-    }
     .header_Cookie_Button{
         margin-right: 20px;
     }
-    .header_LogoPlusLogin_Login{
-        margin-right: 30px;
-    }
-    .header_LogoPlusLogin{
-        margin-left: 30px;
-    }
-    .header_Offer_RightSide_Img{
-        height: 500px;
-        margin-top: 30px;
-    }
-    .header_Offer_LeftSide_UnderTitle_Text{
-        padding-top: 0px;
-    }
-    .header_Offer_LeftSide_UnderTitle_Text{
-        max-width: 240px;
-    }
-    .header_Offer_LeftSide_Title h1{
-        font-size: 40px;
-    }
+}
+@media (max-width: 413px) {
     .header_Offer_LeftSide_Title{
-        max-width: 240px;
-    }
-    .header_DownloadApp .DownloadButtons{
-        flex-direction: column;
-    }
-    .DownloadButtons_AppStore{
-        padding-left: 23px;
-        padding-right: 23px;
-        margin-bottom: 30px;
-        margin-right: 0px;
-    }
-    .header_LogoPlusLogin_Logo_Img{
-        width: 60px;
-    }
-    .header_LogoPlusLogin_Logo_Text{
-        font-size: 25px;
-    }
-    .header_Offer{
-        margin-top: 50px;
-    }
-    .SectionDescription_Title{
-        font-size: 25px;
-        
-        max-width: 700px;
-        margin-right: 0px;
-        margin-bottom: 20px;
-    }
-    .BiTool_Charts_ThirdChart{
-        margin-left: 250px;
-    }
-    .BiTool_Charts_FourthChart{
-        margin-left: 380px;
-    }
-    .BiTool_Charts_SecondSlicedCircle{
-        margin-left: 51px;
-    }
-    .BiTool_Charts_ThirdSlicedCircle{
-        margin-left: 97px;
-    }
-    .BiTool_Charts_FourthSlicedCircle{
-        margin-left: 140px;
-    }
-    .BiTool_SectionDescription{
-        padding-top: 100px;
+        max-width: 170px;
     }
     
-    
-
-}
-@media (max-width: 540px) {
-    .BiTool_Charts_ThirdChart{
-        margin-left: 203px;   
-    }
-    .BiTool_Charts_FourthChart{
-        margin-left: 332px;
-    }
-    .BiTool_Charts_FirstProgressiveCircle{
-        margin-left: 211px;
-    }
-    .BiTool_Charts_SecondProgressiveCircle{
-        margin-left: 297px;
-    }
-    .BiTool_Charts_ThirdProgressiveCircle{
-        margin-left: 382px;
-    }
-    .BiTool_Charts_FirstChart{
-        left: -434px;
-    }
-}
-@media (max-width: 502px) {
-    .header_DownloadApp_Text{
-        font-size: 30px;
-    }
-    .header_Offer_LeftSide{
-        margin-left: 20px;
-    }
-    .IdScanner_Wrapper{
-        padding-top: 280px;
-    }
-    .BiTool_SectionDescription{
-        padding-top: 0px;
-    }
-    .BiTool{
-        padding-top: 450px;
-    }
-}
-@media (max-width: 470px) {
-    .header_Offer_RightSide_Img{
-        height: 400px;
-        margin-top: 70px;
-    }
-    .StartUsing_Mail_Text{
-        line-height: 30px;
-    }
-    .StartUsing_Mail_Text{
-        font-size: 25px;
-        font-weight: 700;
-    }
-    .StartUsing_Mail{
-        padding-left: 15px;
-    }
-    .StartUsing_Login{
-        padding: 20px 80px 30px 30px;
-    }
-    .StartUsing_Login_Text{
-        font-size: 25px;
-        font-weight: 700;
-    }
-}
-@media (max-width: 452px) {
-    .BiTool_Charts_FourthChart {
-        margin-left: 288px;
-        margin-top: 130px;
-    }
-}
-@media (max-width: 426px) {
-    .BiTool_Charts_FirstProgressiveCircle {
-        margin-left: 183px;
-    }
-    .BiTool_Charts_SecondProgressiveCircle {
-        margin-left: 269px;
-    }
-    .BiTool_Charts_ThirdProgressiveCircle {
-        margin-left: 356px;
-    }
-}
-@media (max-width: 408px) {
-    .IdScanner_Wrapper{
-        padding-top: 200px;
-    }
-}
-@media (max-width: 390px) {
-    .BiTool_Charts_FirstChart {
-        left: -469px;
-    }
-}
-@media (max-width: 372px) {
-    .SectionDescription_MainText{
-        width: 300px;
-    }
-    .IdScanner_SectionDescription .SectionDescription_MainText{
-        width: 300px;
+    .header_Offer_LeftSide_UnderTitle{
+        max-width: 170px;
     }
 }
