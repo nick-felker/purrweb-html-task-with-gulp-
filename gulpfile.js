@@ -11,9 +11,4 @@ gulp.task('default', function () {
         }))
         .pipe(minifyCss())
         .pipe(gulp.dest('css'));
-        
-        
-
-
-        
 });
